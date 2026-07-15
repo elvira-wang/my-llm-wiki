@@ -1,0 +1,50 @@
+# Raycast Changelog 写作风格提炼
+
+## 整体语调
+- 专业友好，亲和但不失正式。像一位懂产品的同事在向你介绍更新，而不是官腔公告。
+- 用 "we" 指代团队（如 "we aim to bring further improvements"、"our team likes to use..."），拉近与用户的距离。
+- 用 "you" 直接对用户说话，营造对话感。
+- 对功能有热情但克制，不夸张、不营销腔。
+
+## 结构模式
+1. **Hero Banner**：每个版本开头一张全宽产品截图。
+2. **导语段落（1-3 句）**：用对话式语气介绍本版本的头条功能，说明它能解决什么问题、怎么用。
+3. **三段式分类**：所有条目归入三个固定板块，每个用 emoji 作为板块标题：
+   - ✨ New — 新增功能
+   - 💎 Improvements — 改进优化
+   - 🐞 Fixes — Bug 修复
+4. 条目格式统一为：**组件名/功能区域**: 一句话描述（不加句号）。
+
+## 条目写作规范
+- **极度精炼**：每条一行，删掉所有可有可无的词。电报式简洁但不失完整语义。
+- **不加句号**：列表条目末尾不用标点。
+- **主动语态**：Fixed / Added / Improved / Introduced / Removed 开头。
+- **现在时态**：描述当前版本的行为，不用将来时（除非是路线图预告）。
+- **组件名前粗体+冒号**：`**AI Chat**: Fixed ...`，让用户一眼定位影响范围。
+- **反引号标记**：代码、命令、设置项名用反引号，如 `Start Focus Session`、`⌘F`。
+- **UI 元素用粗体**：如 **Interface Size**、**Settings > File Search**。
+- **斜体注释**：补充说明用斜体 _Note_: 开头。
+
+## 语言特征
+- 技术向但不晦涩——假设用户熟悉产品但需要被告知新功能做什么。
+- 具体指路：告诉用户在 Settings 的哪个位置、按什么快捷键。
+- 诚实透明：Beta 阶段的功能、已知限制、后续规划都会告知（如 "This is the first step..."）。
+- 偶尔加入轻微的非正式表达（🎉、感叹号）增加温度，但克制使用。
+- 中文环境下也保持同样的结构纪律和精炼度。
+
+## 示例（此风格下的理想条目）
+
+### ✨ New
+- **File Search**: You can now search contents of text documents from within File Search and Root Search
+- **AI**: AI can ask you multiple choice questions through the Ask User Question tool when requiring extra information
+- **Settings**: Added a new **Interface Size** setting with three sizes — Default, Large, and Larger
+
+### 💎 Improvements
+- **AI Chat**: Improved startup and window reveal performance
+- **Root Search**: Improved width handling of search arguments
+- **UI**: Aligned date picker icon treatment with other selects
+
+### 🐞 Fixes
+- **Clipboard History**: Fixed occasional hangs caused by pasteboard item capture
+- **Root Search**: Fixed an issue where descenders would appear clipped in the search field text
+- **Core**: Fixed ⌘+Escape being swallowed by Raycast when ⌘+Tab window is frontmost

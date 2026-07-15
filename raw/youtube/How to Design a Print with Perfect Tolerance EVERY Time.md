@@ -1,0 +1,78 @@
+---
+title: "How to Design a Print with Perfect Tolerance EVERY Time"
+source: "https://www.youtube.com/watch?v=XKrDUnZCmQQ"
+author:
+  - "[[Slant 3D]]"
+published: 2025-08-01
+created: 2026-07-15
+description: "What if your parts just fit—every single time—no matter what printer, material, or slicer settings you use?In this video, we break down the proven design pri..."
+tags:
+  - "videos"
+---
+![](https://www.youtube.com/watch?v=XKrDUnZCmQQ)
+
+## Transcript
+
+**0:00** · So, how do you make sure something like this fits perfectly into something like this every single time without having to worry about print settings? So, this is a super common problem inside of 3D printing, and it is dealing with tolerances, the fit of things going together. This exact same file printed on the exact same machine with a different color no longer fits the same because a different color can change how the material shrinks and behaves. A different material obviously changes how everything shrinks and behaves. A different resolution changes it.
+
+**0:27** · A different infill changes it, a different machine changes it, a different nozzle size changes it. And it is almost impossible to rely on printer settings to make sure that the same files printed on different machines in different situations all behave exactly the same unless you very very intentionally design the parts appropriately so that they do.
+
+**0:48** · So let's go ahead and run through all the variations of how to design both the base and the lid so that you get them to fit exactly how you intended every single time. regardless of what material, color, or machine anyone is using. Let's go ahead and start with the baseline. Very simple kind of CAD model where you just have a square base and a square lid and they fit together here. This is really poor design. This is kind of entry-level design. What you want to do is you want to actually optimize for the process that you're working with. The very first thing you want to do is go ahead and round all the edges.
+
+**1:18** · This ensures that you're able to get rid of any potential warp around these individual corners and you also eliminate kind of contact stress areas at these sharp corners because as the nozzle is going around it can bounce or there can be flow delay those kind of things that will cause these corners to suddenly become dimensionally inaccurate. If you round it off you no longer have that bang bang location which is what it's called where you have a sharp corner and then you have to change direction. you have this rounded out direction to where it can fit very snugly inside of there.
+
+**1:49** · And it's just these side faces that are far truer than individual sharp corners can be. In addition to that, on the bottom, you always add a chamfer to the bottom of any given part. And that ensures that you don't have to worry about elephant footing or anything on top. But that's more cosmetic than anything else. Right here, you can see the other little trick that we did on this one, which is one of the easiest and simplest to implement, which is this small chamfer over on this side. You can see that this edge is slightly angled as compared to this one which is perfectly vertical.
+
+**2:19** · The reason you want to do this is because now instead of having one single dimension that everything has to fit to, you can actually have multiple dimensions so that you know that will at least start and then it can be pressed in the rest of the way. And then you can adjust this and play around with it different ways in order to get more tightness. Since I just basically applied this chamfer right here, it fits a little bit loosely on there. But if I was to expand these dimensions just a hair, you would start to have this slide to where it comes in on the top and then it can slide in and interlock.
+
+**2:48** · And this is a really good way for making kind of one directional lids that just press together and then never come apart. But you know that it will always fit. And you know you will get that wonderful press fit without having to worry about it not being able to go together like in this case to where they can't even get started. You will allow this wedge to wedge into the cavity.
+
+**3:09** · Now, there are ways of evolving this.
+
+**3:11** · Obviously, you have the top right here with the chamfer on the side. So, this acts a little bit like a wedge, but you can also just evolve it a bit to where you're using a fillet on the top so that you have this starter edge. And then you can still have this large horizontal surface so that you get better interface with the outer edges like that. This creates a tighter kind of a fit, but still allows you to start on it, but also creates that robust dimensioning while maintaining all the rounding out the edges that you need. But the problem with this one is that when you have the solid inner base, you have a potential shrinkage in there.
+
+**3:38** · Depending on how the infill direction is going or what type of infill is being used, the shrink on this can be different. So that these side walls are a little bit different.
+
+**3:47** · In order to adjust for that, you can basically go to a thin wall. Just cut out the inner cavity. And now you not only get a little bit more flexibility on these if you make them really thin, but you also reduce the opportunity for infill to affect the dimensionality of your part because this is basically just the walls. So you know they will always be solid. And in this case you have a much more reliable set of dimensionality because instead of having shrink pull this in to where it enters more easily, this part is much truer to true dimension and is therefore a little bit harder to get in there because these two have the exact same dimensions.
+
+**4:19** · But for some reason, this one goes in a little bit easier because it has a little bit more shrink than this one, which has a little bit less shrink. But you can take this idea of the thin walls a little bit further in order to get more flexibility in how you design this stuff. You can take those walls, make them very thin, and start to change their pattern. Right here, this is designed to literally just have contact with the outer corners. So, with this, these four corners are now the only contact areas. It can slide in a little bit more easily.
+
+**4:48** · And since it's thinner walled than the original, these can actually flex a little bit. So if for some reason the dimensions are a little bit off, you know, somebody can press it in and probably still pry it out and know that they're not just grinding on the part and forcing it in there because this is effectively a compliant mechanism. And you can lead into that even further. This is a truly compliant mechanism. What is the difference here? The difference is this one has the star fully embedded into that base plate to where it is a solid wall.
+
+**5:17** · Whereas this one has had cuts taken out underneath the bottom here to where these individual walls are able to flex themselves which again gives it more compliance so that it's able to insert in there even more easily than the original was able to because it just has a little bit more space. But the danger with those kind of compliant features is that you want to give a gap underneath here of about.3. This ensures that at any resolution the part can still be printed and that gap will still be present.
+
+**5:43** · But 3 is so small that sometimes slicers and uh 3D model systems will attempt to adjust it or consider it a defect. So right here you can kind of see how there's this cross patterning right here. This is because there was that in cut into the part in order to create the slot underneath here, but it's so subtle that the STL itself was kind of modified in order to create these artifacts that kind of close up those holes. So you can make it a hair bigger. You can go as large as.5.
+
+**6:11** · But at that point you can start to get deformation in your features. So you want to keep it as close as you can minimum of.3 and then you can go bigger based on what you need to do. But now you're starting to get into the weirdness of slicer settings. 3 is generally the best. Make sure your STL is clean and good. One way of taking this compliance feature even further is with these types of shapes. Right here you can see a split version of this U-shape that allows it to bend a lot because it's just two thumbs pressing up against the wall.
+
+**6:38** · And right here is a solid version that also has just a little bit less compliance because it's fully solid. But this allows you to have lots of flexibility. So if you want a part that's a little bit sloppy or just a really loose pole so that you know people can always get it out but still have good contact, you can create these types of spring features in here. again gap between the layer.3 high and then you can just press it in there and it pops in there really well and you can adjust the tightness of that by flattening out the shoe and that kind of stuff. And of course you can soften it up by splitting it so that it has less compression on the outer wall.
+
+**7:08** · And you can mess with these kind of compliant features in all kinds of different ways.
+
+**7:13** · I like this one because you have the square down at the bottom in order to position the lid appropriately in the base, but you still have plenty of room to mess around with the spring up here.
+
+**7:22** · And you can make it softer and harder by making these thicker, pushing it out a little bit so that it squashes more. All kinds of things you can do about that on the baseline of springs. But these are really good ways of designing the lid to fit into whatever base you have. But the lid is not the only component in this part. Sometimes you cannot redesign the lid. Sometimes you only get to work with this. And this original design right here is also terrible cuz again, sharp corners and bad design throughout. So, first of all, let's go ahead and run through that design and make sure bottom is chamered. Make sure the inner corners are all rounded.
+
+**7:53** · Now, you have a part that is well designed for 3D printing, at least as a baseline. But the corners create a lot of contact area to where if you have a standard type of lid, there's just so much surface area for it to interface with, maintaining a consistent fit and feel can be difficult. So, what you can do is just reduce the amount of contact area. And a simple solution to that is doing things like this where you basically cut out the corners so that they're no longer interfacing with the lid. And now you just have these nice flat outer sides that are very precise, very reliable, and very consistent.
+
+**8:25** · So you don't have the corners contacting anymore. You just have the outer walls.
+
+**8:30** · So now those two parts can press together really well. Whereas the black and the purple do not fit together very reliably at all. And if they do, they're not coming apart. But with this design, it is still a solid part. it is going to hold its dimensions and it's not going to stretch or move at all. And having some level of compliance inside your part can be a lot of help. So that's when these types of features can be handy.
+
+**8:51** · These little splits in the corners can allow the part to spread and bend so that when you have something big and rigid like that, the outer part can adjust and move so it goes in really easily again as compared to something like that. Now, these splits can be really dangerous because they are in the plane of the layer lines. So, if you put a ton of these in there, they can help the parts split off. In this case, it's okay because they're 90° from each other.
+
+**9:19** · So, even if this one starts to split that, it is still supported over here by the other side, but you can make them more and less subtle just to give you the little bit of an edge that you need. And just be aware of that potentiality. Don't try to make this an uber press in part to where you're wanting these to spllay out a half a millimeter or something cuz that will cause splitting in the layer lines. But if you just want if you've tuned up all the tolerances for the most part as well as you can and you just want a little bit of a safety factor there, that is where these can be really really useful.
+
+**9:48** · But now let's go ahead and move into some really advanced stuff. And this is only for the pro modelers out there.
+
+**9:55** · These are great. These allow your part to bend and move a little bit in order to get it out, but you will still have variability in how the lid interfaces with it based on different lids and different colors and so on so forth, all the things, things will fit just a little bit differently between these based on the pressing of it all. But if you want the exact same fit, the exact same force to press in and the exact same force to pull out every single time, independent of anything about print settings, you need to really mechanize this thing. And you need to use something like grip fins.
+
+**10:26** · These are a large series of flexible fingers that not only decrease the contact with the part, but hold it at the exact same pressure all the time. These are an advanced engineering one. And the way of modeling these is that you literally just extrude them into the wall and then cut out underneath them so that they are free to flex. Now plastics tend to creep, which means that over time they can kind of adjust their position and they just move to a new place if you keep on pushing on them.
+
+**10:53** · This is what grip fins can get to, but it depends on the plastic that you're using and how long you want them to be used for. This is a perfectly reasonable application because the pressures are distributed a lot against a lot of griffins and in this case they're deflecting so little that over time you're going to lose almost none of the pressure that this lid is put under to hold it onto there.
+
+**11:15** · But this is stupidly reliable because each one of those is compliant. They look really cool and they allow you to create a fit with the lid that will always work. This is easily the most reliable way of doing it. Complant features within your systems are very easy to design. They do not have to be complex, but if you want them to be really good, you can go as complex as you want. And this allows you to make stuff that is really, really reliable, really, really robust, and can be made at any time, anywhere, all the time.
+
+**11:43** · And this is the reason we care about it because inside of our print service teleport, we have people uploading whatever sort of part. And our machines aren't necessarily the same as your machines. So, it's really important to design your parts to be reliable so that you can have them produced and it's important to understand the engineering and the design to get that done. So, if you are looking to create a product and you don't really want to run a print farm anymore, you might check out Teleport over at slantpod.com.
+
+**12:10** · That's slantpod.com where you can just upload a model, connect it into your Etsy store, and then whenever you get an order, we will print it and ship it directly to your customer for you. So, if you want to start up a 3D printing business, go ahead and check out our other videos to see other nifty design tips. And then go ahead and check out Teleport if you really want to scale up your 3D printing operations. Have a great day, everybody.
