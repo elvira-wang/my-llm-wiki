@@ -73,3 +73,5 @@ CHITUBOX v1.3.0 新增功能。在软件内直接在模型表面绘制切割路�
 - [[model-alignment|模型对齐]]：切割后的精度验证
 - [[part-joining-methods|零件连接方法]]：切割完用什么结构连回去
 - [[print-orientation-resin|打印角度]]：切割方向应配合打印角度
+- [[blender-stl-cutting|Blender STL 切割]]：需要曲面切割或创建连接结构时的进阶方案
+- [[manifold-geometry|流形几何]]：切割后务必检查 manifold——切割面可能引入非流形边

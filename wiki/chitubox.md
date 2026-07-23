@@ -36,7 +36,7 @@ CHITUBOX 覆盖的工作流按知识链组织如下。每条链中的条目可�
 
 > **[[print-orientation-resin|角度]]**（最上游决策）→ **[[island-detection|孤岛检测]]** + **[[support-structures-resin|支撑]]**（后果与解决）→ **[[hollowing|镂空]]** + **[[drain-holes|排液孔]]**（消除 **[[suction-cup-effect|吸盘]]**）
 
-v1.3.0 新增：[[free-cutting|自由切割]] + [[model-alignment|模型对齐]] + 模型封装（保护盒）
+v1.3.0 新增：[[free-cutting|自由切割]] + [[model-alignment|模型对齐]] + 模型封装（保护盒）。Blender 补充：[[blender-stl-cutting|Blender STL 切割]]（复杂分件 + 连接结构）。
 
 ### 工艺参数流
 
@@ -49,6 +49,15 @@ v1.3.0 新增：[[free-cutting|自由切割]] + [[model-alignment|模型对齐]]
 ### 独立条目
 
 [[post-processing-resin|后处理]] · [[temperature-control|温度控制]] · [[part-joining-methods|零件连接]] · [[tolerance-and-fit|公差设计]] · [[protective-cage|保护笼]]
+
+### 跨领域条目
+
+[[manifold-geometry|流形几何]]（打印前提——所有模型必须水密） · [[ai-3d-generation|AI 3D 生成]]（AI 图像 → 3D 打印流程） · [[cad-software-comparison|CAD 软件选择]]（建模工具对比） · [[fdm-surface-quality|FDM 表面质量]]（FDM 平滑参数）
+
+### 相关软件工具
+
+- [[blender-stl-cutting|Blender STL 切割]]：Blender 中的进阶切割 + 连接工作流
+- [[cad-software-comparison|CAD 软件选择]]：面向 3D 打印的建模软件对比
 
 ---
 
