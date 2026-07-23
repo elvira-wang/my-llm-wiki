@@ -7,6 +7,8 @@ created: 2026-07-14
 domain:
   - resin-printing
   - printer-hardware
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 平台调平

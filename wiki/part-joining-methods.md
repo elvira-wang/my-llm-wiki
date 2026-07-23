@@ -6,6 +6,9 @@ created: 2026-07-15
 domain:
   - resin-printing
   - fdm-printing
+solves: [[free-cutting]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 零件连接方法

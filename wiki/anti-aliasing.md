@@ -7,6 +7,9 @@ created: 2026-07-14
 domain:
   - resin-printing
   - slicing-software
+solves: [[pixel-texture]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 抗锯齿

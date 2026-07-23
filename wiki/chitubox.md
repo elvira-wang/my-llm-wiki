@@ -18,6 +18,8 @@ created: 2026-07-14
 domain:
   - slicing-software
   - resin-printing
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # CHITUBOX

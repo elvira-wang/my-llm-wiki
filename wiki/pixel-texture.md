@@ -6,6 +6,8 @@ source:
 created: 2026-07-14
 domain:
   - resin-printing
+confidence: established
+knowledge_type: fact
 ---
 
 # 像素纹

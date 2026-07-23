@@ -7,6 +7,8 @@ domain:
   - resin-printing
   - slicing-software
 version: "v1.3.0"
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 自由切割 (Free Cutting)

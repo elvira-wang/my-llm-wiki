@@ -7,6 +7,9 @@ source:
 created: 2026-07-15
 domain:
   - resin-printing
+solves: [[suction-cup-effect]]
+confidence: speculative
+knowledge_type: debate
 ---
 
 # 保护笼

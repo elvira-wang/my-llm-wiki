@@ -37,10 +37,10 @@ When asked to ingest new materials (/ingest) or maintain the wiki:
   * This prevents stale content from silently "resurrecting" with mixed old/new data.
 
 - **Standardized Front Matter Protocol:**
-  Every note MUST use lowercase filenames. Front matter MUST include `tags`, `source`, and `created`. It SHOULD include optional fields `domain` and `version` to enhance discoverability, and `status` / `superseded_by` to flag outdated content.
+  Every note MUST use lowercase filenames. Front matter MUST include `tags`, `source`, `created`, `confidence`, and `knowledge_type`. It SHOULD include optional fields `solves`, `caused_by`, `domain`, and `version` to enhance discoverability, and `status` / `superseded_by` to flag outdated content.
   ```yaml
   ---
-  tags: [concept, chitubox, supports]
+  tags: [chitubox/workflow, resin-slicer/workflow]
   source:
     - "[[youtube--free-cutting-tutorial]]"
     - "[[blog--resin-support-guide]]"
@@ -49,7 +49,11 @@ When asked to ingest new materials (/ingest) or maintain the wiki:
     - resin-printing
     - slicing-software
   version: "v1.3.0"        # Optional. Applicable software/hardware version
-  status: deprecated        # Optional. Set when content is outdated
+  solves: [[suction-cup-effect]]     # Optional. Wiki concept(s) this note helps resolve
+  caused_by: [[hollowing]]           # Optional. Wiki concept(s) that cause/explain this phenomenon
+  confidence: consensus              # Required. established | consensus | anecdotal | speculative
+  knowledge_type: consensus          # Required. fact | consensus | opinion | debate | hypothesis
+  status: deprecated                 # Optional. Set when content is outdated
   superseded_by: "[[chitubox-v2.0-support]]"  # Optional. Pointer to replacement
   ---
   ```
@@ -57,6 +61,10 @@ When asked to ingest new materials (/ingest) or maintain the wiki:
   - `tags`: Must use Obsidian nested tag format: `<domain-parent>/<attribute>`. The parent tag represents the ecosystem/technology/tool category (e.g., `chitubox`, `resin-slicer`, `fdm-slicer`, `sla-printing`, `hardware`). The child tag is a core attribute word (e.g., `/settings`, `/workflow`, `/calibration`, `/troubleshooting`, `/surface-quality`). Child tags are not a closed list — they emerge naturally as new content types appear. **Critical rule: never use concrete concept names as tags.** Concepts like `anti-aliasing` or `supports` belong in wiki filenames and [[double links]], not as tag suffixes. `chitubox/anti-aliasing` is wrong; `chitubox/settings` is correct. Never use bare adjectives like `settings` or `calibration` without their parent prefix. Prefer reusing existing tags over inventing near-synonyms. Check existing tags in `wiki/` before adding new ones.
   - `source`: List of `[[raw file references]]`. Append new sources on re-ingest instead of overwriting.
   - `domain`: Multi-valued label covering technology, tool type, and workflow stage. Free-form; no restricted enum. Examples: `resin-printing`, `fdm-printing`, `slicing-software`, `post-processing`, `printer-hardware`. Domain and tag parents should align semantically (e.g., an entry with tags `[chitubox/workflow, resin-slicer/workflow]` likely has domains `[resin-printing, slicing-software]`).
+  - `solves` (optional): A list of `[[wiki concepts]]` representing problems that this note's knowledge helps resolve. Only populate when there's a clear, direct relationship to an existing wiki concept. Example: `[[anti-aliasing]]` solves `[[pixel-texture]]`.
+  - `caused_by` (optional): A list of `[[wiki concepts]]` representing mechanisms or upstream decisions that cause or explain this phenomenon. Only populate when there's a clear, direct relationship. Example: `[[suction-cup-effect]]` is caused by `[[hollowing]]` (without drain holes).
+  - `confidence`: How certain the knowledge is. `established` — physical law, indisputable (e.g., LCD pixel grid causes voxel stepping). `consensus` — multiple independent practitioners agree. `anecdotal` — single source with data, not independently verified. `speculative` — hypothesis, community debate, no consensus.
+  - `knowledge_type`: The epistemological category. `fact` — physical reality, independently verifiable. `consensus` — community alignment on best practice. `opinion` — individual preference or judgment. `debate` — active disagreement in community. `hypothesis` — proposed explanation awaiting verification.
 
 - **Tag vs. Link Division of Labor:**
   *Tags* answer: "What category of knowledge is this, and which ecosystem does it belong to?" They are macro-classification. Parent = ecosystem, Child = attribute.

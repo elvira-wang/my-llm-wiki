@@ -7,6 +7,8 @@ created: 2026-07-14
 domain:
   - resin-printing
   - post-processing
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 后处理

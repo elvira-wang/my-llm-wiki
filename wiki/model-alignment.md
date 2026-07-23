@@ -7,6 +7,9 @@ domain:
   - resin-printing
   - slicing-software
 version: "v1.3.0"
+solves: [[free-cutting]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 模型对齐 (Model Alignment)

@@ -8,6 +8,9 @@ source:
 created: 2026-07-14
 domain:
   - resin-printing
+caused_by: [[hollowing]]
+confidence: established
+knowledge_type: fact
 ---
 
 # 吸盘效应 (Suction Cup Effect)

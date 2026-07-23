@@ -7,6 +7,8 @@ source:
 created: 2026-07-14
 domain:
   - resin-printing
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 曝光校准

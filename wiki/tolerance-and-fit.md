@@ -6,6 +6,9 @@ created: 2026-07-15
 domain:
   - resin-printing
   - fdm-printing
+solves: [[part-joining-methods]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 公差与配合

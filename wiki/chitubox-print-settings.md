@@ -9,6 +9,8 @@ domain:
   - resin-printing
   - slicing-software
 version: "v2.3"
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # CHITUBOX 打印参数

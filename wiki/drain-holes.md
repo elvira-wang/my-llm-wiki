@@ -9,6 +9,10 @@ created: 2026-07-14
 domain:
   - resin-printing
   - slicing-software
+solves: [[suction-cup-effect]]
+caused_by: [[hollowing]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 排液孔 (Drain Holes)

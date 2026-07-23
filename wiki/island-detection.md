@@ -6,6 +6,9 @@ created: 2026-07-14
 domain:
   - resin-printing
   - slicing-software
+caused_by: [[print-orientation-resin]]
+confidence: consensus
+knowledge_type: consensus
 ---
 
 # 孤岛检测 (Island Detection)
