@@ -30,6 +30,9 @@ created: 2026-07-23
 ### 曝光校准 / 测试模型
 - Saturn 4 Ultra 16K 校准调试 → [[Saturn 4 Ultra 16K - another post about validation matrix]]
 
+### 树脂打印故障诊断
+- Blooming / 壁面变形 / 深腔固化 → [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+
 ### 网格修复 / 打印准备
 - Manifold 检测与修复 → [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
 
@@ -70,6 +73,7 @@ created: 2026-07-23
 
 ### discussion (社区讨论)
 - [[Saturn 4 Ultra 16K - another post about validation matrix]]
+- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
 
 ---
 
@@ -132,6 +136,15 @@ created: 2026-07-23
 ### tool-recommendation (工具推荐)
 - [[Saturn 4 Ultra 16K - another post about validation matrix]] — UVTools 做渐变等待时间、CTB vs GOO 格式差异
 
+### problem-diagnosis (问题诊断)
+- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "我怀疑是 X 导致了 Y"的结构化诊断
+
+### root-cause-analysis (根因分析)
+- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — blooming ≠ 曝光问题，是流体动力学问题
+
+### tool-selection-critique (工艺选择批评)
+- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "这个件不应该用树脂打——完全不合适"
+
 ---
 
 ## 按质量评分
@@ -146,6 +159,7 @@ created: 2026-07-23
 - [[AI Image to 3D Print - Complete Workflow (Hunyuan 3D + Blender)]]
 - [[From AI Image to Printed 3D Figure (Best & Fastest Tutorial)]]
 - [[Saturn 4 Ultra 16K - another post about validation matrix]]
+- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
 
 ### ★★★ (有参考价值)
 - [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
