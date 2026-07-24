@@ -5,6 +5,7 @@ You are the dedicated Agent for this local knowledge base and content factory. Y
 ## 📁 Directory Structure
 - `raw/`: Raw, unedited knowledge sources (web clips, transcripts, articles). **NEVER modify files here.**
 - `wiki/`: Core knowledge base. Contains refined concept, topic, and entity atomic notes.
+- `digest/`: Content digest engine. Structured briefs for every raw file (200-500 words each), analyzing topic, form, technique, and key claims. Used for topic discovery and content style reference without re-reading raw sources. `digest/INDEX.md` provides multi-dimensional aggregation.
 - `config/`: Configuration files and style assets.
   - `config/feed/`: Raw material used for extracting writing styles (e.g., sample blog posts, copy you like).
   - `config/styles/`: Refined style Prompts and style guides extracted from the feed.
@@ -17,6 +18,14 @@ You are the dedicated Agent for this local knowledge base and content factory. Y
 ### 1. Wiki Ingestion & Maintenance
 When asked to ingest new materials (/ingest) or maintain the wiki:
 - Scan `raw/` for unprocessed files.
+
+- **Content Digest Engine (run BEFORE wiki extraction):**
+  For EVERY new raw file (regardless of whether it will be extracted to wiki):
+  1. Read the raw file and generate a structured brief in `digest/` following the template at `digest/_template.md`.
+  2. Each brief analyzes: one-sentence thesis, content structure, key claims (original/controversial ones — not common sense), expression highlights (analogies, structural devices, presentation tricks), production notes (optional), and topic signals (comment trends, controversies).
+  3. Update `digest/INDEX.md` — register the new brief under all applicable dimensions (topic, content form, expression technique, quality rating).
+  4. Briefs are ~200-500 words. They are NOT summaries of raw content — they are **content analysis**: what angle, why it works, what to borrow.
+  Purpose: When the user asks "what do we have on X?", "any good topic ideas?", or "how do others present Y?", read INDEX.md first to locate relevant briefs, then read the briefs — never re-read raw files.
 
 - **Strict Atomic Ingestion Strategy (The 3D-Standard):**
   Dissect raw text into atomic notes based on three criteria: **High Friction** (complex details/gotchas/tables), **Context-Free Reuse** (reusable in marketing/tutorials), and **Network Anchor** (connects to >=2 notes).
@@ -97,6 +106,8 @@ When asked to analyze or extract a style from the feed:
 
 When asked to generate promotional copy (`outputs/promos/`) or tutorials (`outputs/tutorials/`):
 
+- **Step 0 (optional):** If seeking topic inspiration or style reference, first check `digest/INDEX.md` for relevant briefs by topic or technique.
+    
 - **Step 1:** Retrieve relevant knowledge strictly from the `wiki/` folder. Do not hallucinate facts.
     
 - **Step 2:** Read the requested style guide Prompt from `config/styles/`.
