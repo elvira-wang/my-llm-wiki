@@ -27,6 +27,9 @@ created: 2026-07-23
 - STL 切割 + 连接件 → [[COMO CORTAR STL NO BLENDER PARA IMPRESSÃO 3D - impressão3d actionfigures 3dprinting diy blender]]
 - 学习历程记录 → [[I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender)]]
 
+### 曝光校准 / 测试模型
+- Saturn 4 Ultra 16K 校准调试 → [[Saturn 4 Ultra 16K - another post about validation matrix]]
+
 ### 网格修复 / 打印准备
 - Manifold 检测与修复 → [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
 
@@ -64,6 +67,9 @@ created: 2026-07-23
 
 ### commentary (个人叙事)
 - [[I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender)]]
+
+### discussion (社区讨论)
+- [[Saturn 4 Ultra 16K - another post about validation matrix]]
 
 ---
 
@@ -117,6 +123,15 @@ created: 2026-07-23
 ### anti-sponsor-disclosure (反赞助声明)
 - [[13 Things I Wish I Knew Before I Started 3D Printing]] — "多家厂商全部忽略了我，所以这是完全独立的"
 
+### peer-debugging (社区协作调试)
+- [[Saturn 4 Ultra 16K - another post about validation matrix]] — 提问→诊断→参数分享→验证的完整闭环
+
+### parameter-sharing (参数分享 + 原理解释)
+- [[Saturn 4 Ultra 16K - another post about validation matrix]] — 每个参数值都附带"为什么是这个值"
+
+### tool-recommendation (工具推荐)
+- [[Saturn 4 Ultra 16K - another post about validation matrix]] — UVTools 做渐变等待时间、CTB vs GOO 格式差异
+
 ---
 
 ## 按质量评分
@@ -130,6 +145,7 @@ created: 2026-07-23
 - [[How to 3D Model Anything in 5 Minutes]]
 - [[AI Image to 3D Print - Complete Workflow (Hunyuan 3D + Blender)]]
 - [[From AI Image to Printed 3D Figure (Best & Fastest Tutorial)]]
+- [[Saturn 4 Ultra 16K - another post about validation matrix]]
 
 ### ★★★ (有参考价值)
 - [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
