@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/protective-cage.md",
+                "file": "raw/marketing/流量认知篇3：李守洲独家IP定位顶级方法论——“意识形态定位”.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "protective-cage"
+              "title": "流量认知篇3：李守洲独家IP定位顶级方法论——“意识形态定位”"
+            }
+          },
+          {
+            "id": "b7ed31b6048bc1e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/marketing/‍‌⁣‌⁢⁡⁤​⁤⁤⁢⁤⁢​⁣⁤‍⁡⁡‍⁢⁡⁣‍​​​‌⁣​⁤‬⁡​​​​‌​‬​⁤⁢﻿﻿‌⁤﻿‌‍内容策划篇3：怎么找到能帮助自己变现的对标账号？.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "‍‌⁣‌⁢⁡⁤​⁤⁤⁢⁤⁢​⁣⁤‍⁡⁡‍⁢⁡⁣‍​​​‌⁣​⁤‬⁡​​​​‌​‬​⁤⁢﻿﻿‌⁤﻿‌‍内容策划篇3：怎么找到能帮助自己变现的对标账号？"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,42 +198,51 @@
       "bases:新建数据库": false
     }
   },
-  "active": "07fe099344af43af",
+  "active": "b7ed31b6048bc1e1",
   "lastOpenFiles": [
-    "wiki/suction-cup-effect.md",
-    "wiki/model-alignment.md.tmp.29772.1784110890153",
-    "wiki/model-alignment.md.tmp.29772.1784110882375",
-    "wiki/protective-cage.md",
+    "raw/marketing/‍‌‬​‍‌﻿⁡⁤‍⁢​​⁢⁢⁡‌⁤‍⁣⁢‍‌‬⁤⁢⁢​⁡⁣﻿⁣⁢⁡⁡⁢‍⁣​⁡⁢‬﻿⁣⁣⁢‍⁢内容策划篇1：获客型IP定位通识课（上）.md",
+    "raw/marketing/⁣​‬﻿⁢‬​⁢‌‬⁤‍‌‌﻿⁡‍‌​‍﻿​‬​‍⁢‬⁤⁡⁤⁤‌‌‬‬‬​​‬‍⁤​⁤⁣​‬‍⁡⁡内容策划篇2：获客型IP定位通识课（下）.md",
+    "raw/marketing/流量认知篇3：李守洲独家IP定位顶级方法论——“意识形态定位”.md",
+    "media/Pasted image 20260728181020.png",
     "CLAUDE.md",
-    "未命名.md",
-    "wiki/chitubox.md.tmp.29772.1784104677330",
-    "wiki/protective-cage.md.tmp.29772.1784104666668",
-    "raw/default/Anyone know what are these cages around models for and how do you make it.md",
-    "raw/default/あらけん＠WF6-03-16 on X SATURN23での3Dプリント時に印刷断面積が急に変わる層の近傍で横線というかシワが入る問題おいらも遭遇したな。量産時には並べたワークの周りにパーツ保護の外枠的なもの立ててるんだけど、その形状がドーム状になってるのもその対策の一環で、剥離抵抗の変動が急激にならないように気を使ってるｗ httpst.conWubBbYbfw.md",
-    "raw/default/Cages around 3D prints (not mine).md",
-    "raw/default/When to print model parts separately.md",
-    "raw/default/CHITUBOX V1.3.0 更新日志.md",
-    "wiki/anti-aliasing.md",
-    "raw/default/A Guide to Splitting and Printing Large Files in Bambu Studio.md",
-    "wiki/chitubox-print-settings.md",
-    "wiki/tolerance-and-fit.md.tmp.29772.1784103044862",
-    "wiki/part-joining-methods.md.tmp.29772.1784103024616",
-    "wiki/temperature-control.md.tmp.29772.1784102993624",
-    "wiki/post-processing-resin.md.tmp.29772.1784102977940",
-    "wiki/grayscale-threshold-testing.md.tmp.29772.1784102241198",
-    "wiki/anti-aliasing.md.tmp.29772.1784102219994",
-    "wiki/island-detection.md",
-    "wiki/model-alignment.md",
-    "wiki/support-structures-resin.md",
-    "wiki/hollowing.md",
-    "wiki/chitubox.md",
-    "wiki/drain-holes.md",
-    "wiki/screen-bit-depth.md",
-    "wiki/post-processing-resin.md",
-    "wiki/pixel-texture.md",
-    "wiki/print-orientation-resin.md",
-    "wiki/temperature-control.md",
-    "wiki/exposure-calibration.md",
-    "wiki/bottom-exposure.md"
+    "media",
+    "raw/marketing/⁤﻿​⁡‍​⁤​​﻿​‬‍‍‍‬﻿​‌‌﻿‌⁢‌⁤⁣‬⁣⁡⁤‬​​‌‌⁣⁢⁡‬‬⁣⁡‬⁣​‌‌⁢⁢内容策划篇4：怎么做出能变现的选题？.md",
+    "digest/INDEX.md",
+    "digest/From AI Image to Printed 3D Figure (Best & Fastest Tutorial).md",
+    "raw/marketing/‍‬‌⁢⁣⁡⁡﻿⁤⁡‍​⁡﻿‍‌⁡​‬‍‌⁤⁣‌​‬​⁢‬​⁡‬⁡​​‍​⁣‬⁣⁢‌‍⁤⁣⁢⁣﻿‌‍内容策划篇9：流量压舱石：跨赛道爆款开头收集和复用模板.md",
+    "raw/marketing/‌⁤​​‍​⁤​⁡﻿⁤⁡​⁣‍‌⁤​⁤⁡‬⁢‬‌‬​⁤‬​​‌⁤⁢⁤﻿﻿​​‬⁡⁤⁤⁣‌‌‬‬​⁡⁡内容策划篇10：如何做内容，让客户主动来找你？.md",
+    "raw/marketing",
+    "media/Pasted image 20260728185603.png",
+    "media/Pasted image 20260728185531.png",
+    "media/Pasted image 20260728185425.png",
+    "raw/marketing/‌⁣⁡﻿⁣⁡⁡​⁣⁣⁢⁤⁢‌‌‬⁢⁡​⁣‍‍﻿⁤‍⁡﻿​‬⁡⁤﻿‬​‌⁤​‌⁡⁡‌‌⁡‬‬​‍‌⁢‌内容策划篇8：优质短视频开头的6大元素.md",
+    "raw/marketing/‍‌⁣‌⁢⁡⁤​⁤⁤⁢⁤⁢​⁣⁤‍⁡⁡‍⁢⁡⁣‍​​​‌⁣​⁤‬⁡​​​​‌​‬​⁤⁢﻿﻿‌⁤﻿‌‍内容策划篇3：怎么找到能帮助自己变现的对标账号？.md",
+    "media/Pasted image 20260728182727.png",
+    "media/Pasted image 20260728182705.png",
+    "media/Pasted image 20260728182608.png",
+    "media/Pasted image 20260728182539.png",
+    "media/Pasted image 20260728181038.png",
+    "raw/default/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!.md",
+    "digest/INDEX.md.tmp.8600.1784887292375",
+    "digest/INDEX.md.tmp.8600.1784887269907",
+    "digest/INDEX.md.tmp.8600.1784887264014",
+    "digest/INDEX.md.tmp.8600.1784887259615",
+    "digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!.md",
+    "digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!.md.tmp.8600.1784887254088",
+    "outputs/resin-printing-glossary.md",
+    "outputs/resin-printing-glossary.md.tmp.8600.1784886637388",
+    "raw/default/Saturn 4 Ultra 16K - another post about validation matrix.md",
+    "digest/INDEX.md.tmp.8600.1784882006776",
+    "digest/INDEX.md.tmp.8600.1784882001317",
+    "digest/Saturn 4 Ultra 16K - another post about validation matrix.md",
+    "digest/Making Money With 3D, Iceberg Explained.md",
+    "raw/default/Saturn 4 Ultra 16K - another post about validation matrix... Saturn 4 Ultra 16K——另一个关于验证矩阵的帖子…….md",
+    "digest/_template.md",
+    "digest/I tested every AI 3d model generator.. here's what you NEED TO KNOW!.md",
+    "raw/youtube/5 Easy Bambu Studio Settings for Smoother 3D Prints.md",
+    "digest/I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender).md",
+    "digest/COMO CORTAR STL NO BLENDER PARA IMPRESSÃO 3D - impressão3d actionfigures 3dprinting diy blender.md",
+    "digest/AI Image to 3D Print - Complete Workflow (Hunyuan 3D + Blender).md",
+    "digest/Top 5 Software for 3D Print Modeling! FREE vs paid, iPad, License & EASE.md"
   ]
 }
