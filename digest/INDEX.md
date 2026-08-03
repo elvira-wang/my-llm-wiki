@@ -15,6 +15,10 @@ created: 2026-07-23
 - 表面质量 / 切片设置 → [[5 Easy Bambu Studio Settings for Smoother 3D Prints]]
 - 新手入门 / 避坑指南 → [[13 Things I Wish I Knew Before I Started 3D Printing]]
 
+### 树脂打印表面质量
+- Z 层台阶 / AA 边界 / 摆放角度 → [[Any advice for these sorts of layer lines]]
+- 支撑接触痕迹 / 热拆支撑 / 触点类型 → [[How to get rid of printing contact marks]]
+
 ### AI 3D 生成
 - Hunyuan3D + Blender 完整管线 → [[AI Image to 3D Print - Complete Workflow (Hunyuan 3D + Blender)]]
 - Hitem3D + 商业案例 + 网格修复 → [[From AI Image to Printed 3D Figure (Best & Fastest Tutorial)]]
@@ -32,12 +36,19 @@ created: 2026-07-23
 
 ### 树脂打印故障诊断
 - Blooming / 壁面变形 / 深腔固化 → [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- FEP 老化 / 支撑失败 / 确认修复 → [[Can't get a successful print after 8+ attempts]]
+- 空心件爆裂 / 内部清洗 / 水洗树脂争议 → [[Hollow issues]]
+- 大件吸盘 / 离型膜类型 / Saturn 4 Ultra → [[Questions about printing and issues with suction]]
 
 ### 网格修复 / 打印准备
 - Manifold 检测与修复 → [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
+- Blender 法线方向 / Chitubox 切片异常 → [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]]
 
 ### 软件选择
 - CAD 软件横向对比 → [[Top 5 Software for 3D Print Modeling! FREE vs paid, iPad, License & EASE]]
+
+### 分件 / 装配
+- 一体打印 vs 分件打印决策 → [[When to print model parts separately]]
 
 ### 商业 / 变现
 - 3D 行业变现全景 → [[Making Money With 3D, Iceberg Explained]]
@@ -74,6 +85,13 @@ created: 2026-07-23
 ### discussion (社区讨论)
 - [[digest/Saturn 4 Ultra 16K - another post about validation matrix]]
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- [[Any advice for these sorts of layer lines]]
+- [[Can't get a successful print after 8+ attempts]]
+- [[Hollow issues]]
+- [[How to get rid of printing contact marks]]
+- [[Questions about printing and issues with suction]]
+- [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]]
+- [[When to print model parts separately]]
 
 ---
 
@@ -117,6 +135,7 @@ created: 2026-07-23
 ### myth-busting (破除迷思)
 - [[How to Design for 3D Printing in Blender - Beginner Tutorial]] — "Blender 不适合做精密零件"不是事实
 - [[13 Things I Wish I Knew Before I Started 3D Printing]] — "最简单的打印机不是即插即忘"
+- [[Any advice for these sorts of layer lines]] — "AA 能修所有层纹"的边界澄清
 
 ### minimal-keybinds (极简操作集)
 - [[ABSOLUTE Beginner Basics.. Blender For Noobs 2025]] — 只用 5 个快捷键完成第一个模型
@@ -129,6 +148,8 @@ created: 2026-07-23
 
 ### peer-debugging (社区协作调试)
 - [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — 提问→诊断→参数分享→验证的完整闭环
+- [[Can't get a successful print after 8+ attempts]] — 参数排查后确认 FEP 更换解决
+- [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]] — Blender 法线检查一句话解决 Chitubox 异常
 
 ### parameter-sharing (参数分享 + 原理解释)
 - [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — 每个参数值都附带"为什么是这个值"
@@ -141,9 +162,19 @@ created: 2026-07-23
 
 ### root-cause-analysis (根因分析)
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — blooming ≠ 曝光问题，是流体动力学问题
+- [[Hollow issues]] — 有排液孔仍爆裂，根因转向内部残留、清洗/干燥、内部结构与材料
+- [[Questions about printing and issues with suction]] — 大件吸盘不是单一设置问题，而是膜、机器、支撑、角度的组合
 
 ### tool-selection-critique (工艺选择批评)
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "这个件不应该用树脂打——完全不合适"
+
+### tradeoff-framing (取舍框架)
+- [[How to get rid of printing contact marks]] — 速度、支撑可靠性、表面质量三者不可同时最优
+- [[When to print model parts separately]] — 一体打印减少装配，分件打印减少支撑和后处理
+
+### confirmed-fix (确认修复)
+- [[Can't get a successful print after 8+ attempts]] — 更换 FEP 后连续成功
+- [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]] — 翻转法线后 Chitubox 预览恢复正常
 
 ---
 
@@ -160,6 +191,11 @@ created: 2026-07-23
 - [[From AI Image to Printed 3D Figure (Best & Fastest Tutorial)]]
 - [[digest/Saturn 4 Ultra 16K - another post about validation matrix]]
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- [[Any advice for these sorts of layer lines]]
+- [[Can't get a successful print after 8+ attempts]]
+- [[Hollow issues]]
+- [[How to get rid of printing contact marks]]
+- [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]]
 
 ### ★★★ (有参考价值)
 - [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
@@ -169,6 +205,8 @@ created: 2026-07-23
 - [[Making Money With 3D, Iceberg Explained]]
 - [[COMO CORTAR STL NO BLENDER PARA IMPRESSÃO 3D - impressão3d actionfigures 3dprinting diy blender]]
 - [[I tested every AI 3d model generator.. here's what you NEED TO KNOW!]]
+- [[Questions about printing and issues with suction]]
+- [[When to print model parts separately]]
 
 ### ★★ (参考有限)
 - [[I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender)]]

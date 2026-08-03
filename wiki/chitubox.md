@@ -48,11 +48,11 @@ v1.3.0 新增：[[free-cutting|自由切割]] + [[model-alignment|模型对齐]]
 
 ### 独立条目
 
-[[post-processing-resin|后处理]] · [[temperature-control|温度控制]] · [[part-joining-methods|零件连接]] · [[tolerance-and-fit|公差设计]] · [[protective-cage|保护笼]]
+[[post-processing-resin|后处理]] · [[temperature-control|温度控制]] · [[part-joining-methods|零件连接]] · [[tolerance-and-fit|公差设计]] · [[protective-cage|保护笼]] · [[release-film-wear|离型膜老化]]
 
 ### 跨领域条目
 
-[[manifold-geometry|流形几何]]（打印前提——所有模型必须水密） · [[ai-3d-generation|AI 3D 生成]]（AI 图像 → 3D 打印流程） · [[cad-software-comparison|CAD 软件选择]]（建模工具对比） · [[fdm-surface-quality|FDM 表面质量]]（FDM 平滑参数）
+[[manifold-geometry|流形几何]]（打印前提——所有模型必须水密） · [[resin-z-stepping|树脂 Z 层台阶]]（AA 不能完全解决的层级纹理） · [[support-contact-marks-resin|树脂支撑接触痕迹]]（支撑参数、摆放与后处理共同决定） · [[ai-3d-generation|AI 3D 生成]]（AI 图像 → 3D 打印流程） · [[cad-software-comparison|CAD 软件选择]]（建模工具对比） · [[fdm-surface-quality|FDM 表面质量]]（FDM 平滑参数）
 
 ### 相关软件工具
 
