@@ -1,0 +1,24 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Obsidian local UI state
+.obsidian/workspace*.json
+.obsidian/cache/
+
+# Claude local machine settings
+.claude/settings.local.json
+.claude/*.local.json
+.claude/cache/
+.claude/logs/
+.claude/sessions/
+
+# Codex local state, but keep project skills
+.codex/*
+!.codex/skills/
+!.codex/skills/**
