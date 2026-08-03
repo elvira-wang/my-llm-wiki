@@ -133,7 +133,7 @@ When asked to generate promotional copy (`outputs/promos/`) or tutorials (`outpu
 
 _(If I type these abbreviations in chat, execute the corresponding workflow)_
 
-- `/ingest`: Check `raw/`, extract new concepts to `wiki/`, and commit.
+- `/ingest`: Check `raw/`, create digest briefs for every unprocessed raw file, update `digest/INDEX.md`, selectively extract reusable atomic knowledge to `wiki/`, and commit.
     
 - `/lint`: Scan `wiki/` for broken links or missing front matter, fix them, and commit.
     
