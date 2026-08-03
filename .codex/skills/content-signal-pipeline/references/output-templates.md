@@ -82,7 +82,28 @@
 ```markdown
 # [Recommended title]
 
+## Daily Post
+
+Target: 120-220 words for Monday-Friday daily posting. Use a peer-to-peer field note, short diagnosis, or discussion prompt. Mention the product only when it naturally belongs in the workflow.
+
 [Opening: community problem or field observation]
+
+[One compact evidence-backed insight]
+
+[Short practical takeaway]
+
+[Question for the community]
+
+## Optional First Comment
+
+Use this for source links, caveats, parameter details, longer checklists, or "not claiming this is universal" notes. Keep details here instead of overloading the main post.
+
+## Internal Notes
+
+- Longer mini-guide version: 250-450 words, use no more than 1-2 times per week.
+- Deep tutorial version: 500-900 words, use only when the topic needs visuals, screenshots, or a serious walkthrough.
+- Avoid tables in daily Reddit main posts unless the subreddit clearly favors technical long-form posts.
+- For Reddit cadence, prefer five smaller useful posts over one overloaded weekly essay.
 
 ## What I noticed
 
