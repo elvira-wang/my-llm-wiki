@@ -1,5 +1,88 @@
 # Output Templates
 
+## Signal Board
+
+```markdown
+---
+title: "[channel/topic] signal board"
+created: YYYY-MM-DD
+mode: signal-board
+platform:
+business_goal:
+source_window:
+---
+
+# Signal Board: [channel/topic/date]
+
+## Recommendation
+
+| Rank | Signal ID | Topic | Best Next Artifact | Why |
+|---|---|---|---|---|
+| 1 | sig-[channel]-[topic] |  | calendar / content-package / hold |  |
+
+## Candidate Signals
+
+| Signal ID | Topic | User Pain | Trigger Scene | Evidence | Wiki Support | Platform Fit | Risk | Priority |
+|---|---|---|---|---|---|---|---|---|
+| sig-[channel]-[topic] |  |  |  | raw/digest/wiki/web paths | wiki links | Reddit / Discord / short video | low / medium / high | high / medium / low |
+
+## Scoring
+
+| Signal ID | Audience Urgency | Knowledge Leverage | Community Fit | Product Fit | Evidence Quality | Asset Availability | Total |
+|---|---:|---:|---:|---:|---:|---:|---:|
+|  |  |  |  |  |  |  |  |
+
+## Calendar Guidance
+
+- Best column:
+- Best weekday:
+- Recommended format:
+- First content package to generate:
+
+## Hold / Reject
+
+| Signal | Reason |
+|---|---|
+|  |  |
+```
+
+## Content Calendar
+
+```markdown
+---
+title: "[channel] content calendar"
+created: YYYY-MM-DD
+mode: calendar
+status: trial / active / archived
+signal_board:
+period:
+  start: YYYY-MM-DD
+  end: YYYY-MM-DD
+---
+
+# [Channel] Content Calendar
+
+## Calendar Logic
+
+- Source basis:
+- Business goal:
+- Cadence:
+- Posting time test:
+
+## Slots
+
+| Date | Time | Calendar Slot ID | Signal ID | Column | Title | Format | Source Base | Package File | Status | CTA |
+|---|---|---|---|---|---|---|---|---|---|---|
+| YYYY-MM-DD |  | [channel]-YYYY-MM-DD-[column]-[topic] | sig-[channel]-[topic] |  |  |  |  | outputs/content-packages/[file].md | planned / drafted / published / skipped |  |
+
+## Retrospective Fields
+
+Track after publishing:
+
+| Calendar Slot ID | Post URL | 24h Comments | 72h Comments | Useful Replies | Negative Signals | Learning |
+|---|---|---:|---:|---:|---|---|
+```
+
 ## Topic Shortlist
 
 ```markdown
@@ -21,6 +104,19 @@
 ## Content Package
 
 ```markdown
+---
+title: "[title]"
+created: YYYY-MM-DD
+mode: content-package
+platform:
+column:
+signal_id:
+calendar_slot_id:
+calendar_file:
+status: draft
+post_url:
+---
+
 # Content Package: [title]
 
 ## Brief
@@ -28,6 +124,8 @@
 - Channel:
 - Audience:
 - Goal:
+- Signal ID:
+- Calendar slot:
 - Thesis:
 - Recommended format:
 
