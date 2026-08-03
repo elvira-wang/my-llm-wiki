@@ -124,11 +124,11 @@ Original discussion: https://www.reddit.com/r/resinprinting/comments/1v2cg43/can
 
 ## 可复用到其他业务线
 
-| 业务线 | 改写方向 |
-|---|---|
-| Discord 栏目 | `Release film check week`: 让用户贴失败位置、膜使用时长、失败是否集中在中部、当前 lift distance/rest time。 |
-| 短视频 | Hook：`I changed 8 slicer settings. The fix was a $5 sheet.` 然后 20 秒解释同一文件突然失败时的排查顺序。 |
-| Wiki 反哺 | 后续可补一条更结构化的 `release-film-replacement-checklist`，把 FEP/PFA/ACF 寿命判断单独做成流程卡。 |
+| 业务线        | 改写方向                                                                                 |
+| ---------- | ------------------------------------------------------------------------------------ |
+| Discord 栏目 | `Release film check week`: 让用户贴失败位置、膜使用时长、失败是否集中在中部、当前 lift distance/rest time。      |
+| 短视频        | Hook：`I changed 8 slicer settings. The fix was a $5 sheet.` 然后 20 秒解释同一文件突然失败时的排查顺序。 |
+| Wiki 反哺    | 后续可补一条更结构化的 `release-film-replacement-checklist`，把 FEP/PFA/ACF 寿命判断单独做成流程卡。          |
 
 ## 准确性提醒
 
