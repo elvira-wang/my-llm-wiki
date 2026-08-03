@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Signal Pipeline"
+  short_description: "Create source-backed content packages"
+  default_prompt: "Use $content-signal-pipeline to turn this idea or community signal into a channel-ready content package."
