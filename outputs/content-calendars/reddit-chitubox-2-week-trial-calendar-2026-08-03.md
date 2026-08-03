@@ -11,7 +11,7 @@ mode: calendar
 signal_board: outputs/content-signals/reddit-chitubox-signal-board-2026-08-03.md
 sources:
   - outputs/content-signals/reddit-chitubox-signal-board-2026-08-03.md
-  - outputs/content-packages/reddit-chitubox-weekly-topics-2026-08-03.md
+  - outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md
   - raw/reddit/Can't get a successful print after 8+ attempts.md
   - raw/reddit/Any advice for these sorts of layer lines.md
   - raw/reddit/Hollow issues.md
@@ -53,7 +53,7 @@ official_references:
 2. 用 `wiki` 判断我们是否有足够知识解释它，而不是只复述原帖。
 3. 按用户痛点、证据质量、社区适配、产品适配和风险排序。
 4. 再把不同信号放进固定栏目：case、myth、checklist、ask、fix。
-5. 每个 calendar slot 用 `signal_id` 连接上游信号，用 `calendar_slot_id` 连接下游内容包。
+5. 每个 calendar slot 用 `signal_id` 和 `topic_package_id` 连接上游选题判断，用 `calendar_slot_id` 连接下游 daily publishing package。
 
 ## 日常帖建议是否仍成立
 
@@ -96,23 +96,23 @@ Trial 规则：
 
 ## Week 1
 
-| Date | Time | Calendar Slot ID | Signal ID | Column | Title | Format | Source Base | Package File | Status | Main CTA |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Mon 2026-08-03 | 21:30 Beijing / 09:30 ET | reddit-2026-08-03-case-fep | sig-reddit-fep-release-film | Community Case File | Community Case File: repeated failures fixed by replacing the FEP | Repost/crosspost + official first comment | `Can't get a successful print after 8+ attempts` | `outputs/content-packages/reddit-2026-08-03-case-fep.md` | planned | How do you decide when a release film is done? |
-| Tue 2026-08-04 | 21:30 Beijing / 09:30 ET | reddit-2026-08-04-myth-aa-z-stepping | sig-reddit-aa-z-stepping | Slicer Myth | Anti-aliasing is not a magic eraser for every layer line | Original daily post | `Any advice for these sorts of layer lines` | `outputs/content-packages/reddit-2026-08-04-myth-aa-z-stepping.md` | planned | Do you usually diagnose lines as AA, angle, layer height, or resolution first? |
-| Wed 2026-08-05 | 21:30 Beijing / 09:30 ET | reddit-2026-08-05-checklist-hollow-drain-holes | sig-reddit-hollow-cracking | Tiny Checklist | Before hollowing: angle first, then drain holes | Original checklist | `Hollow issues`, `wiki/drain-holes.md` | `outputs/content-packages/reddit-2026-08-05-checklist-hollow-drain-holes.md` | planned | What is your minimum drain-hole setup for hollow models? |
-| Thu 2026-08-06 | 21:30 Beijing / 09:30 ET | reddit-2026-08-06-ask-release-film | sig-reddit-fep-release-film | Ask the Community | When do you replace FEP/PFA/ACF? | Discussion prompt | `release-film-wear.md` | `outputs/content-packages/reddit-2026-08-06-ask-release-film.md` | planned | Visible damage, print count, tension, or first failure? |
-| Fri 2026-08-07 | 21:30 Beijing / 09:30 ET | reddit-2026-08-07-fix-support-contact-marks | sig-reddit-support-contact-marks | Fix in 5 Steps | Support marks are a workflow problem, not just a support setting | Short mini-guide | `How to get rid of printing contact marks` | `outputs/content-packages/reddit-2026-08-07-fix-support-contact-marks.md` | planned | What is your support-removal workflow? |
+| Date | Time | Calendar Slot ID | Signal ID | Topic Package ID | Column | Working Title | Format | Source Base | Topic Package | Daily Package File | Status | Main CTA |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Mon 2026-08-03 | 21:30 Beijing / 09:30 ET | reddit-2026-08-03-case-fep | sig-reddit-fep-release-film | topic-reddit-chitubox-weekly-2026-08-03 | Community Case File | Community Case File: repeated failures fixed by replacing the FEP | Repost/crosspost + official first comment | `Can't get a successful print after 8+ attempts` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-03-case-fep.md` | drafted | How do you decide when a release film is done? |
+| Tue 2026-08-04 | 21:30 Beijing / 09:30 ET | reddit-2026-08-04-myth-aa-z-stepping | sig-reddit-aa-z-stepping | topic-reddit-chitubox-weekly-2026-08-03 | Slicer Myth | Anti-aliasing is not a magic eraser for every layer line | Original daily post | `Any advice for these sorts of layer lines` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-04-myth-aa-z-stepping.md` | package-needed | Do you usually diagnose lines as AA, angle, layer height, or resolution first? |
+| Wed 2026-08-05 | 21:30 Beijing / 09:30 ET | reddit-2026-08-05-checklist-hollow-drain-holes | sig-reddit-hollow-cracking | topic-reddit-chitubox-weekly-2026-08-03 | Tiny Checklist | Before hollowing: angle first, then drain holes | Original checklist | `Hollow issues`, `wiki/drain-holes.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-05-checklist-hollow-drain-holes.md` | package-needed | What is your minimum drain-hole setup for hollow models? |
+| Thu 2026-08-06 | 21:30 Beijing / 09:30 ET | reddit-2026-08-06-ask-release-film | sig-reddit-fep-release-film | topic-reddit-chitubox-weekly-2026-08-03 | Ask the Community | When do you replace FEP/PFA/ACF? | Discussion prompt | `release-film-wear.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-06-ask-release-film.md` | package-needed | Visible damage, print count, tension, or first failure? |
+| Fri 2026-08-07 | 21:30 Beijing / 09:30 ET | reddit-2026-08-07-fix-support-contact-marks | sig-reddit-support-contact-marks | topic-reddit-chitubox-weekly-2026-08-03 | Fix in 5 Steps | Support marks are a workflow problem, not just a support setting | Short mini-guide | `How to get rid of printing contact marks` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-07-fix-support-contact-marks.md` | package-needed | What is your support-removal workflow? |
 
 ## Week 2
 
-| Date | Time | Calendar Slot ID | Signal ID | Column | Title | Format | Source Base | Package File | Status | Main CTA |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Mon 2026-08-10 | 21:30 Beijing / 09:30 ET | reddit-2026-08-10-case-blender-normals | sig-reddit-blender-normals-chitubox | Community Case File | Community Case File: looks fine in Blender, broken in CHITUBOX | Repost/crosspost or case replay | `Ring failing to print correctly...` | `outputs/content-packages/reddit-2026-08-10-case-blender-normals.md` | planned | What is your pre-slicer mesh check? |
-| Tue 2026-08-11 | 22:30 Beijing / 10:30 ET | reddit-2026-08-11-myth-slicer-ready-mesh | sig-reddit-blender-normals-chitubox | Slicer Myth | "Looks fine" does not always mean "slicer-ready" | Original daily post | `Ring failing to print correctly...`, `wiki/manifold-geometry.md` | `outputs/content-packages/reddit-2026-08-11-myth-slicer-ready-mesh.md` | planned | Do you check face orientation before exporting STL? |
-| Wed 2026-08-12 | 21:30 Beijing / 09:30 ET | reddit-2026-08-12-checklist-large-hollow-suction | sig-reddit-large-hollow-suction | Tiny Checklist | Large hollow prints: suction checklist before changing resin | Original checklist | `Questions about printing and issues with suction`, `wiki/suction-cup-effect.md` | `outputs/content-packages/reddit-2026-08-12-checklist-large-hollow-suction.md` | planned | What helped your largest hollow print release cleanly? |
-| Thu 2026-08-13 | 22:30 Beijing / 10:30 ET | reddit-2026-08-13-ask-solid-vs-hollow | sig-reddit-solid-vs-hollow-threshold | Ask the Community | Solid vs hollow: where is your threshold? | Discussion prompt | `Hollow issues`, `When to print model parts separately` | `outputs/content-packages/reddit-2026-08-13-ask-solid-vs-hollow.md` | planned | At what size do you stop printing solid? |
-| Fri 2026-08-14 | 21:30 Beijing / 09:30 ET | reddit-2026-08-14-fix-layer-lines-triage | sig-reddit-aa-z-stepping | Fix in 5 Steps | Layer lines triage: XY pixels, Z stepping, angle, or post-processing? | Short mini-guide | `Any advice for these sorts of layer lines`, `wiki/resin-z-stepping.md` | `outputs/content-packages/reddit-2026-08-14-fix-layer-lines-triage.md` | planned | Share one print where orientation changed the surface finish. |
+| Date | Time | Calendar Slot ID | Signal ID | Topic Package ID | Column | Working Title | Format | Source Base | Topic Package | Daily Package File | Status | Main CTA |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Mon 2026-08-10 | 21:30 Beijing / 09:30 ET | reddit-2026-08-10-case-blender-normals | sig-reddit-blender-normals-chitubox | topic-reddit-chitubox-weekly-2026-08-03 | Community Case File | Community Case File: looks fine in Blender, broken in CHITUBOX | Repost/crosspost or case replay | `Ring failing to print correctly...` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-10-case-blender-normals.md` | package-needed | What is your pre-slicer mesh check? |
+| Tue 2026-08-11 | 22:30 Beijing / 10:30 ET | reddit-2026-08-11-myth-slicer-ready-mesh | sig-reddit-blender-normals-chitubox | topic-reddit-chitubox-weekly-2026-08-03 | Slicer Myth | "Looks fine" does not always mean "slicer-ready" | Original daily post | `Ring failing to print correctly...`, `wiki/manifold-geometry.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-11-myth-slicer-ready-mesh.md` | package-needed | Do you check face orientation before exporting STL? |
+| Wed 2026-08-12 | 21:30 Beijing / 09:30 ET | reddit-2026-08-12-checklist-large-hollow-suction | sig-reddit-large-hollow-suction | topic-reddit-chitubox-weekly-2026-08-03 | Tiny Checklist | Large hollow prints: suction checklist before changing resin | Original checklist | `Questions about printing and issues with suction`, `wiki/suction-cup-effect.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-12-checklist-large-hollow-suction.md` | package-needed | What helped your largest hollow print release cleanly? |
+| Thu 2026-08-13 | 22:30 Beijing / 10:30 ET | reddit-2026-08-13-ask-solid-vs-hollow | sig-reddit-solid-vs-hollow-threshold | topic-reddit-chitubox-weekly-2026-08-03 | Ask the Community | Solid vs hollow: where is your threshold? | Discussion prompt | `Hollow issues`, `When to print model parts separately` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-13-ask-solid-vs-hollow.md` | package-needed | At what size do you stop printing solid? |
+| Fri 2026-08-14 | 21:30 Beijing / 09:30 ET | reddit-2026-08-14-fix-layer-lines-triage | sig-reddit-aa-z-stepping | topic-reddit-chitubox-weekly-2026-08-03 | Fix in 5 Steps | Layer lines triage: XY pixels, Z stepping, angle, or post-processing? | Short mini-guide | `Any advice for these sorts of layer lines`, `wiki/resin-z-stepping.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-14-fix-layer-lines-triage.md` | package-needed | Share one print where orientation changed the surface finish. |
 
 ## Repost / Crosspost Policy For Official Subreddit
 
@@ -199,8 +199,7 @@ Trial decision after 2 weeks:
 
 ## Immediate Next Drafts Needed
 
-1. Week 1 Monday: Community Case File first comment for FEP replacement case.
-2. Week 1 Tuesday: 120-220 word Slicer Myth post on anti-aliasing vs Z stepping.
-3. Week 1 Wednesday: Tiny Checklist on hollowing order: orientation before drain holes.
-4. Week 1 Thursday: Ask the Community prompt about release film replacement.
-5. Week 1 Friday: Fix in 5 Steps on support contact marks.
+1. Week 1 Tuesday: daily publishing package for `reddit-2026-08-04-myth-aa-z-stepping`.
+2. Week 1 Wednesday: daily publishing package for `reddit-2026-08-05-checklist-hollow-drain-holes`.
+3. Week 1 Thursday: daily publishing package for `reddit-2026-08-06-ask-release-film`.
+4. Week 1 Friday: daily publishing package for `reddit-2026-08-07-fix-support-contact-marks`.

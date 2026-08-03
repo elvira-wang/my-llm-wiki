@@ -18,9 +18,9 @@ status: trial-input
 
 | Rank | Signal ID | Topic | Best Next Artifact | Why |
 |---|---|---|---|---|
-| 1 | sig-reddit-fep-release-film | Repeated failures fixed by replacing FEP | Community Case File + Ask the Community | Confirmed fix, low controversy, strong beginner/intermediate relevance. |
-| 2 | sig-reddit-aa-z-stepping | Anti-aliasing vs Z-layer stepping | Slicer Myth + Fix in 5 Steps | Common misconception with strong wiki support and good Reddit discussion fit. |
-| 3 | sig-reddit-hollow-cracking | Hollow prints cracking despite drain holes | Tiny Checklist + Ask the Community | High engagement and practical value, but needs careful caveats. |
+| 1 | sig-reddit-fep-release-film | Repeated failures fixed by replacing FEP | Topic package, then Community Case File / Ask the Community | Confirmed fix, low controversy, strong beginner/intermediate relevance. |
+| 2 | sig-reddit-aa-z-stepping | Anti-aliasing vs Z-layer stepping | Topic package, then Slicer Myth / Fix in 5 Steps | Common misconception with strong wiki support and good Reddit discussion fit. |
+| 3 | sig-reddit-hollow-cracking | Hollow prints cracking despite drain holes | Topic package, then Tiny Checklist / Ask the Community | High engagement and practical value, but needs careful caveats. |
 | 4 | sig-reddit-support-contact-marks | Support contact marks as workflow tradeoff | Fix in 5 Steps | Practical, visual, and recurring pain for miniature users. |
 | 5 | sig-reddit-blender-normals-chitubox | Blender model looks fine but breaks in CHITUBOX | Community Case File + Slicer Myth | Clear confirmed fix and strong before/after logic. |
 | 6 | sig-reddit-large-hollow-suction | Large hollow print suction and release-film tradeoffs | Tiny Checklist | Useful but less clean than the cracking case; best as a checklist, not a definitive claim. |
@@ -54,9 +54,9 @@ status: trial-input
 
 | Signal ID | Best Column | Best Weekday | Recommended Format | First Package To Generate |
 |---|---|---|---|---|
-| sig-reddit-fep-release-film | Community Case File / Ask the Community | Monday / Thursday | Repost with official first comment; later a standalone question | `outputs/content-packages/reddit-2026-08-03-case-fep.md` |
-| sig-reddit-aa-z-stepping | Slicer Myth / Fix in 5 Steps | Tuesday / Friday | Daily post, then short triage guide | `outputs/content-packages/reddit-2026-08-04-myth-aa-z-stepping.md` |
-| sig-reddit-hollow-cracking | Tiny Checklist / Ask the Community | Wednesday / Thursday | Checklist with caveats; avoid absolute resin claims | `outputs/content-packages/reddit-2026-08-05-checklist-hollow-drain-holes.md` |
+| sig-reddit-fep-release-film | Community Case File / Ask the Community | Monday / Thursday | Repost with official first comment; later a standalone question | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` first; daily packages after calendar slots are selected |
+| sig-reddit-aa-z-stepping | Slicer Myth / Fix in 5 Steps | Tuesday / Friday | Daily post, then short triage guide | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` first; daily packages after calendar slots are selected |
+| sig-reddit-hollow-cracking | Tiny Checklist / Ask the Community | Wednesday / Thursday | Checklist with caveats; avoid absolute resin claims | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` first; daily packages after calendar slots are selected |
 | sig-reddit-support-contact-marks | Fix in 5 Steps | Friday | Mini-guide with optional image suggestions | `outputs/content-packages/reddit-2026-08-07-fix-support-contact-marks.md` |
 | sig-reddit-blender-normals-chitubox | Community Case File / Slicer Myth | Monday / Tuesday | Case replay or repost with official checklist | `outputs/content-packages/reddit-2026-08-10-case-blender-normals.md` |
 | sig-reddit-large-hollow-suction | Tiny Checklist | Wednesday | Checklist, ask for machine/resin/settings | `outputs/content-packages/reddit-2026-08-12-checklist-large-hollow-suction.md` |
@@ -72,4 +72,4 @@ status: trial-input
 
 ## Planning Rule
 
-The calendar should not be generated directly from raw files. It should be generated from this signal board, which itself is grounded in `raw/`, `digest/`, `wiki/`, and current platform/business context. This keeps scheduling decisions separate from drafting decisions.
+The calendar should not be generated directly from raw files. Topic packages should first turn this signal board into concrete angle options and recommendations. The calendar can then schedule selected topic-package directions without locking the final title or draft. This keeps signal discovery, topic judgment, scheduling, and final drafting as separate decisions.

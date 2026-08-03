@@ -1,9 +1,18 @@
 ---
 title: "CHITUBOX Reddit weekly topic package"
 created: 2026-08-03
+mode: topic-package
+topic_package_id: topic-reddit-chitubox-weekly-2026-08-03
 platform: reddit
+channel: official-subreddit
 brand: CHITUBOX
 workflow: content-signal-pipeline
+calendar_dependency: none
+signal_board: outputs/content-signals/reddit-chitubox-signal-board-2026-08-03.md
+recommended_calendar_slots:
+  - reddit-2026-08-03-case-fep
+  - reddit-2026-08-04-myth-aa-z-stepping
+  - reddit-2026-08-05-checklist-hollow-drain-holes
 sources:
   - raw/reddit/Can't get a successful print after 8+ attempts.md
   - raw/reddit/Any advice for these sorts of layer lines.md

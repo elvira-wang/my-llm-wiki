@@ -37,7 +37,7 @@ source_window:
 - Best column:
 - Best weekday:
 - Recommended format:
-- First content package to generate:
+- First topic package or daily package to generate:
 
 ## Hold / Reject
 
@@ -71,9 +71,9 @@ period:
 
 ## Slots
 
-| Date | Time | Calendar Slot ID | Signal ID | Column | Title | Format | Source Base | Package File | Status | CTA |
-|---|---|---|---|---|---|---|---|---|---|---|
-| YYYY-MM-DD |  | [channel]-YYYY-MM-DD-[column]-[topic] | sig-[channel]-[topic] |  |  |  |  | outputs/content-packages/[file].md | planned / drafted / published / skipped |  |
+| Date | Time | Calendar Slot ID | Signal ID | Topic Package ID | Column | Working Title | Format | Source Base | Topic Package | Daily Package File | Status | CTA |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| YYYY-MM-DD |  | [channel]-YYYY-MM-DD-[column]-[topic] | sig-[channel]-[topic] | topic-[channel]-[topic] |  |  |  |  | outputs/topic-packages/[file].md | outputs/content-packages/[file].md | planned / package-needed / drafted / published / skipped |  |
 
 ## Retrospective Fields
 
@@ -83,41 +83,84 @@ Track after publishing:
 |---|---|---:|---:|---:|---|---|
 ```
 
-## Topic Shortlist
+## Topic Package
 
 ```markdown
-# Topic Shortlist: [topic/channel/date]
+---
+title: "[channel/topic] topic package"
+created: YYYY-MM-DD
+mode: topic-package
+topic_package_id: topic-[channel]-[topic/date]
+platform:
+channel:
+calendar_dependency: none
+source_window:
+signal_board:
+recommended_calendar_slots:
+---
+
+# Topic Package: [topic/channel/date]
 
 ## Recommendation
 
-1. [Recommended angle] - [why now] - [confidence]
-2. [Backup angle] - [why now] - [confidence]
-3. [Experimental angle] - [why now] - [confidence]
+| Rank | Topic | Recommended Use | Why | Confidence |
+|---|---|---|---|---|
+| 1 |  | draft / calendar / hold |  |  |
 
 ## Signal Table
 
-| Angle | User Pain | Evidence | Channel Fit | Product Fit | Risk |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
+| Topic | Signal ID | User Pain | Evidence | Channel Fit | Product Fit | Risk |
+|---|---|---|---|---|---|---|
+|  | sig-[channel]-[topic] |  | raw/digest/wiki/web paths |  |  |  |
+
+## Evidence And Materials
+
+- Wiki:
+- Digest:
+- Raw:
+- Web:
+- Visual assets:
+
+## Recommended Draft Direction
+
+- Title direction:
+- Audience:
+- Thesis:
+- Content shape:
+- First comment / source strategy:
+
+## Calendar Fit
+
+- Best column:
+- Best weekday:
+- Suggested working title:
+- Suggested CTA:
+
+## Accuracy Notes
+
+- What is confirmed:
+- What is debated:
+- What should not be claimed:
 ```
 
-## Content Package
+## Daily Publishing Package
 
 ```markdown
 ---
 title: "[title]"
 created: YYYY-MM-DD
-mode: content-package
+mode: daily-publishing-package
 platform:
 column:
 signal_id:
+topic_package_id:
 calendar_slot_id:
 calendar_file:
 status: draft
 post_url:
 ---
 
-# Content Package: [title]
+# Daily Publishing Package: [title]
 
 ## Brief
 
@@ -125,6 +168,7 @@ post_url:
 - Audience:
 - Goal:
 - Signal ID:
+- Topic package:
 - Calendar slot:
 - Thesis:
 - Recommended format:
