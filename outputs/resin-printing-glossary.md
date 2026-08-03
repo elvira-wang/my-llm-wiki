@@ -1,7 +1,10 @@
 ---
-topics: [exposure-calibration, slicing-formats, resin-printing]
+topics:
+  - exposure-calibration
+  - slicing-formats
+  - resin-printing
 source:
-  - "[[raw/default/Saturn 4 Ultra 16K - another post about validation matrix]]"
+  - "[[raw/reddit/Saturn 4 Ultra 16K - another post about validation matrix]]"
 created: 2026-07-24
 ---
 

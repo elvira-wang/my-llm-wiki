@@ -1,8 +1,17 @@
 ---
-source: "[[raw/default/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]"
-topics: [blooming, wall-deflection, hollow-printing, water-curing, fluid-dynamics, print-selection]
+source: "[[raw/reddit/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]"
+topics:
+  - blooming
+  - wall-deflection
+  - hollow-printing
+  - water-curing
+  - fluid-dynamics
+  - print-selection
 form: discussion
-techniques: [problem-diagnosis, root-cause-analysis, tool-selection-critique]
+techniques:
+  - problem-diagnosis
+  - root-cause-analysis
+  - tool-selection-critique
 quality_rating: 4
 created: 2026-07-24
 ---

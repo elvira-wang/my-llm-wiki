@@ -1,8 +1,16 @@
 ---
-source: "[[raw/default/Saturn 4 Ultra 16K - another post about validation matrix]]"
-topics: [exposure-calibration, validation-matrix, pwm-adjustment, z-compression, saturn-4-ultra]
+source: "[[raw/reddit/Saturn 4 Ultra 16K - another post about validation matrix]]"
+topics:
+  - exposure-calibration
+  - validation-matrix
+  - pwm-adjustment
+  - z-compression
+  - saturn-4-ultra
 form: discussion
-techniques: [peer-debugging, parameter-sharing, tool-recommendation]
+techniques:
+  - peer-debugging
+  - parameter-sharing
+  - tool-recommendation
 quality_rating: 4
 created: 2026-07-24
 ---

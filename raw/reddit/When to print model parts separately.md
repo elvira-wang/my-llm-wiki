@@ -1,13 +1,13 @@
 ---
-title: "When to print model parts separately?"
-source: "https://www.reddit.com/r/3Dprinting/comments/w01lho/when_to_print_model_parts_separately/"
+title: When to print model parts separately?
+source: https://www.reddit.com/r/3Dprinting/comments/w01lho/when_to_print_model_parts_separately/
 author:
   - "[[Sociologer]]"
 published: 2022-07-16
 created: 2026-07-15
-description: "Hello folks! I'm getting my first 3D printer, a resin Anycubic Photon M3 if it's important. I've done a lot of research and learned quite a"
+description: Hello folks! I'm getting my first 3D printer, a resin Anycubic Photon M3 if it's important. I've done a lot of research and learned quite a
 tags:
-  - "clippings"
+  - reddit
 ---
 Hello folks! I'm getting my first 3D printer, a resin Anycubic Photon M3 if it's important. I've done a lot of research and learned quite a bit, but I'm still unsure about one thing. When is it required, or at least advisable, to print a single model in multiple parts to be assembled after printing? The most obvious is simply printing a model too large for the printer in one go. The only reason I've come up with is to make the supports easier to place. I've seen some pretty large, intricate models printed as a single piece and others split into 6-12 parts and assembled afterward. Not having to assemble post-print seems ideal to me, but I feel like I'm missing something as to when I can do that and when it is not wise to do so. Your collective wisdom would be greatly appreciated!
 

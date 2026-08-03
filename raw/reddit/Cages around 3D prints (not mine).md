@@ -1,13 +1,13 @@
 ---
-title: "Cages around 3D prints (not mine)"
-source: "https://www.reddit.com/r/resinprinting/comments/1pb9r1c/cages_around_3d_prints_not_mine/"
+title: Cages around 3D prints (not mine)
+source: https://www.reddit.com/r/resinprinting/comments/1pb9r1c/cages_around_3d_prints_not_mine/
 author:
   - "[[FelixxCatus]]"
 published: 2025-12-01
 created: 2026-07-15
-description: "https://x.com/fzr_araken/status/1995387490572861680 Has anyone seen anything like this before? I came across this on twitter, fro"
+description: https://x.com/fzr_araken/status/1995387490572861680 Has anyone seen anything like this before? I came across this on twitter, fro
 tags:
-  - "clippings"
+  - reddit
 ---
 [https://x.com/fzr\_araken/status/1995387490572861680](https://x.com/fzr_araken/status/1995387490572861680)
 

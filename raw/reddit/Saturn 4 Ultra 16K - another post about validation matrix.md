@@ -1,13 +1,13 @@
 ---
-title: "Saturn 4 Ultra 16K - another post about validation matrix..."
-source: "https://www.reddit.com/r/resinprinting/comments/1uze9he/saturn_4_ultra_16k_another_post_about_validation/"
+title: Saturn 4 Ultra 16K - another post about validation matrix...
+source: https://www.reddit.com/r/resinprinting/comments/1uze9he/saturn_4_ultra_16k_another_post_about_validation/
 author:
   - "[[dar_mach]]"
 published: 2026-07-18
 created: 2026-07-24
-description: "Hi everyone, truing to calibrate exposure on a brand new Saturn 4 Ultra 16K version, using Anycubics ABS-Line Pro 2 - as I have this left af"
+description: Hi everyone, truing to calibrate exposure on a brand new Saturn 4 Ultra 16K version, using Anycubics ABS-Line Pro 2 - as I have this left af
 tags:
-  - "clippings"
+  - reddit
 ---
 Hi everyone, truing to calibrate exposure on a brand new Saturn 4 Ultra 16K version, using Anycubics ABS-Line Pro 2 - as I have this left after a Mono 4.
 

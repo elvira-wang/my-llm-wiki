@@ -1,13 +1,13 @@
 ---
 title: "[Troubleshooting] Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!"
-source: "https://www.reddit.com/r/resinprinting/comments/1v0286m/troubleshooting_wall_deflection_blooming_and/"
+source: https://www.reddit.com/r/resinprinting/comments/1v0286m/troubleshooting_wall_deflection_blooming_and/
 author:
   - "[[45acp1911_HD]]"
 published: 2026-07-19
 created: 2026-07-24
-description: "Hey everyone, ​I’m working on a large multi-piece battery organizer and I'm running into a few specific fluid dynamics and post-p"
+description: Hey everyone, ​I’m working on a large multi-piece battery organizer and I'm running into a few specific fluid dynamics and post-p
 tags:
-  - "clippings"
+  - reddit
 ---
 Hey everyone,
 

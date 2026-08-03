@@ -28,10 +28,10 @@ created: 2026-07-23
 - 学习历程记录 → [[I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender)]]
 
 ### 曝光校准 / 测试模型
-- Saturn 4 Ultra 16K 校准调试 → [[Saturn 4 Ultra 16K - another post about validation matrix]]
+- Saturn 4 Ultra 16K 校准调试 → [[digest/Saturn 4 Ultra 16K - another post about validation matrix]]
 
 ### 树脂打印故障诊断
-- Blooming / 壁面变形 / 深腔固化 → [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- Blooming / 壁面变形 / 深腔固化 → [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
 
 ### 网格修复 / 打印准备
 - Manifold 检测与修复 → [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
@@ -72,8 +72,8 @@ created: 2026-07-23
 - [[I Learned 3D MODELLING in 1 WEEK... 👀🎨 (Blender)]]
 
 ### discussion (社区讨论)
-- [[Saturn 4 Ultra 16K - another post about validation matrix]]
-- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- [[digest/Saturn 4 Ultra 16K - another post about validation matrix]]
+- [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
 
 ---
 
@@ -128,22 +128,22 @@ created: 2026-07-23
 - [[13 Things I Wish I Knew Before I Started 3D Printing]] — "多家厂商全部忽略了我，所以这是完全独立的"
 
 ### peer-debugging (社区协作调试)
-- [[Saturn 4 Ultra 16K - another post about validation matrix]] — 提问→诊断→参数分享→验证的完整闭环
+- [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — 提问→诊断→参数分享→验证的完整闭环
 
 ### parameter-sharing (参数分享 + 原理解释)
-- [[Saturn 4 Ultra 16K - another post about validation matrix]] — 每个参数值都附带"为什么是这个值"
+- [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — 每个参数值都附带"为什么是这个值"
 
 ### tool-recommendation (工具推荐)
-- [[Saturn 4 Ultra 16K - another post about validation matrix]] — UVTools 做渐变等待时间、CTB vs GOO 格式差异
+- [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — UVTools 做渐变等待时间、CTB vs GOO 格式差异
 
 ### problem-diagnosis (问题诊断)
-- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "我怀疑是 X 导致了 Y"的结构化诊断
+- [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "我怀疑是 X 导致了 Y"的结构化诊断
 
 ### root-cause-analysis (根因分析)
-- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — blooming ≠ 曝光问题，是流体动力学问题
+- [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — blooming ≠ 曝光问题，是流体动力学问题
 
 ### tool-selection-critique (工艺选择批评)
-- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "这个件不应该用树脂打——完全不合适"
+- [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "这个件不应该用树脂打——完全不合适"
 
 ---
 
@@ -158,8 +158,8 @@ created: 2026-07-23
 - [[How to 3D Model Anything in 5 Minutes]]
 - [[AI Image to 3D Print - Complete Workflow (Hunyuan 3D + Blender)]]
 - [[From AI Image to Printed 3D Figure (Best & Fastest Tutorial)]]
-- [[Saturn 4 Ultra 16K - another post about validation matrix]]
-- [[Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
+- [[digest/Saturn 4 Ultra 16K - another post about validation matrix]]
+- [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]]
 
 ### ★★★ (有参考价值)
 - [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]

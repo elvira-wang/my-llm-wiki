@@ -1,13 +1,13 @@
 ---
-title: "Anyone know what are these cages around models for? and how do you make it?"
-source: "https://www.reddit.com/r/resinprinting/comments/1ieekxy/anyone_know_what_are_these_cages_around_models/"
+title: Anyone know what are these cages around models for? and how do you make it?
+source: https://www.reddit.com/r/resinprinting/comments/1ieekxy/anyone_know_what_are_these_cages_around_models/
 author:
   - "[[FewEducation7353]]"
 published: 2025-01-31
 created: 2026-07-15
-description: "I'm interested if these are made in slicer software or are purely estetic and done in Blender or similar program?"
+description: I'm interested if these are made in slicer software or are purely estetic and done in Blender or similar program?
 tags:
-  - "clippings"
+  - reddit
 ---
 I'm interested if these are made in slicer software or are purely estetic and done in Blender or similar program?
 
