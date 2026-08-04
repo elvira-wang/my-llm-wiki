@@ -73,3 +73,9 @@ status: trial-input
 ## Planning Rule
 
 The calendar should not be generated directly from raw files. Topic packages should first turn this signal board into concrete angle options and recommendations. The calendar can then schedule selected topic-package directions without locking the final title or draft. This keeps signal discovery, topic judgment, scheduling, and final drafting as separate decisions.
+
+## Published Signals
+
+| Date | Signal ID | Post URL | Notes |
+|---|---|---|---|
+| 2026-08-03 | sig-reddit-blender-normals-chitubox | https://www.reddit.com/r/CHITUBOX_Official/s/ja2Q0qxEWw | Published as a comment repost/case because the OP confirmed face orientation / flipped normals fixed the CHITUBOX display issue. |

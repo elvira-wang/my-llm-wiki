@@ -175,10 +175,17 @@ Track each post after 24 hours and 72 hours:
 | New user questions | Shows whether the post invites troubleshooting behavior. |
 | Negative signals | "This is an ad", "why is CHITUBOX posting this", unsafe advice pushback, repost complaints. |
 
+## Actual Publishing Log
+
+| Date | Actual Slot ID | Planned Slot ID | Signal ID | Post URL | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-08-03 | reddit-2026-08-03-actual-blender-normals-comment | reddit-2026-08-03-case-fep | sig-reddit-blender-normals-chitubox | https://www.reddit.com/r/CHITUBOX_Official/s/ja2Q0qxEWw | published | Posted a repost/comment case about Blender face orientation / inverted normals fixing a CHITUBOX display issue. The planned FEP topic should be moved to a standalone post on 2026-08-04. |
+
 ## Retrospective Slots
 
 | Calendar Slot ID | Signal ID | Post URL | 24h Comments | 72h Comments | Useful Replies | Negative Signals | Learning |
 |---|---|---|---:|---:|---:|---|---|
+| reddit-2026-08-03-actual-blender-normals-comment | sig-reddit-blender-normals-chitubox | https://www.reddit.com/r/CHITUBOX_Official/s/ja2Q0qxEWw |  |  |  |  | Posted instead of planned FEP case because reposts cannot add body text; Blender normals case was better suited to comment repost. |
 | reddit-2026-08-03-case-fep | sig-reddit-fep-release-film |  |  |  |  |  |  |
 | reddit-2026-08-04-myth-aa-z-stepping | sig-reddit-aa-z-stepping |  |  |  |  |  |  |
 | reddit-2026-08-05-checklist-hollow-drain-holes | sig-reddit-hollow-cracking |  |  |  |  |  |  |
