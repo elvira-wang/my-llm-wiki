@@ -48,7 +48,7 @@ v1.3.0 新增：[[free-cutting|自由切割]] + [[model-alignment|模型对齐]]
 
 ### 独立条目
 
-[[post-processing-resin|后处理]] · [[temperature-control|温度控制]] · [[part-joining-methods|零件连接]] · [[tolerance-and-fit|公差设计]] · [[protective-cage|保护笼]] · [[release-film-wear|离型膜老化]]
+[[post-processing-resin|后处理]] · [[temperature-control|温度控制]] · [[part-joining-methods|零件连接]] · [[tolerance-and-fit|公差设计]] · [[protective-cage|保护笼]] · [[release-film-wear|离型膜老化]] · [[only-printing-supports-resin|只打印出支撑]]
 
 ### 跨领域条目
 

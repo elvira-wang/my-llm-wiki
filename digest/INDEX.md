@@ -39,6 +39,7 @@ created: 2026-07-23
 - FEP 老化 / 支撑失败 / 确认修复 → [[Can't get a successful print after 8+ attempts]]
 - 空心件爆裂 / 内部清洗 / 水洗树脂争议 → [[Hollow issues]]
 - 大件吸盘 / 离型膜类型 / Saturn 4 Ultra → [[Questions about printing and issues with suction]]
+- 只打印支撑 / 最低点孤岛 / 软质铸造树脂 → [[Only printing supports]]
 
 ### 网格修复 / 打印准备
 - Manifold 检测与修复 → [[Make Any 3D Model Manifold in Blender 3D Print Toolbox Guide]]
@@ -89,6 +90,7 @@ created: 2026-07-23
 - [[Can't get a successful print after 8+ attempts]]
 - [[Hollow issues]]
 - [[How to get rid of printing contact marks]]
+- [[Only printing supports]]
 - [[Questions about printing and issues with suction]]
 - [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]]
 - [[When to print model parts separately]]
@@ -149,6 +151,7 @@ created: 2026-07-23
 ### peer-debugging (社区协作调试)
 - [[digest/Saturn 4 Ultra 16K - another post about validation matrix]] — 提问→诊断→参数分享→验证的完整闭环
 - [[Can't get a successful print after 8+ attempts]] — 参数排查后确认 FEP 更换解决
+- [[Only printing supports]] — "只剩支撑"症状拆成孤岛、支撑、温度、法线和膜状态的排查树
 - [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]] — Blender 法线检查一句话解决 Chitubox 异常
 
 ### parameter-sharing (参数分享 + 原理解释)
@@ -159,6 +162,7 @@ created: 2026-07-23
 
 ### problem-diagnosis (问题诊断)
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — "我怀疑是 X 导致了 Y"的结构化诊断
+- [[Only printing supports]] — 从失败照片症状反推第一层模型附着、支撑强度和网格健康
 
 ### root-cause-analysis (根因分析)
 - [[digest/Troubleshooting Wall deflection, blooming, and curing deep cavities on a large hollow print. Looking for workflow feedback!]] — blooming ≠ 曝光问题，是流体动力学问题
@@ -195,6 +199,7 @@ created: 2026-07-23
 - [[Can't get a successful print after 8+ attempts]]
 - [[Hollow issues]]
 - [[How to get rid of printing contact marks]]
+- [[Only printing supports]]
 - [[Ring failing to print correctly and I can't figure out why!    环形物无法正确打印，我搞不清楚原因！]]
 
 ### ★★★ (有参考价值)
