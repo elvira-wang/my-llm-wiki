@@ -8,10 +8,10 @@ column: Community Case File
 signal_id: sig-reddit-fep-release-film
 topic_package_id: topic-reddit-chitubox-weekly-2026-08-03
 topic_package_file: outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md
-calendar_slot_id: reddit-2026-08-03-case-fep
+calendar_slot_id: reddit-2026-08-04-case-fep
 calendar_file: outputs/content-calendars/reddit-chitubox-2-week-trial-calendar-2026-08-03.md
-scheduled_time: "2026-08-03 21:30 Beijing / 09:30 ET"
-status: draft
+scheduled_time: "2026-08-04 21:30 Beijing / 09:30 ET"
+status: published
 post_url:
 source_url: "https://www.reddit.com/r/resinprinting/comments/1v2cg43/cant_get_a_successful_print_after_8_attempts/"
 ---
@@ -20,9 +20,9 @@ source_url: "https://www.reddit.com/r/resinprinting/comments/1v2cg43/cant_get_a_
 
 ## Publish Time
 
-北京时间：2026-08-03 21:30
+北京时间：2026-08-04 21:30
 
-美国东部时间：2026-08-03 09:30 ET
+美国东部时间：2026-08-04 09:30 ET
 
 ## Publishing Action
 

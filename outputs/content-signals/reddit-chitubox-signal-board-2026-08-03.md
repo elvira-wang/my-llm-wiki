@@ -79,3 +79,4 @@ The calendar should not be generated directly from raw files. Topic packages sho
 | Date | Signal ID | Post URL | Notes |
 |---|---|---|---|
 | 2026-08-03 | sig-reddit-blender-normals-chitubox | https://www.reddit.com/r/CHITUBOX_Official/s/ja2Q0qxEWw | Published as a comment repost/case because the OP confirmed face orientation / flipped normals fixed the CHITUBOX display issue. |
+| 2026-08-04 | sig-reddit-fep-release-film |  | User confirmed the repeated-failure / FEP replacement case was published on 2026-08-04. |
