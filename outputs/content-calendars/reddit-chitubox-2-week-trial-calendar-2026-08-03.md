@@ -101,7 +101,7 @@ Trial 规则：
 | Mon 2026-08-03 | 21:30 Beijing / 09:30 ET | reddit-2026-08-03-actual-blender-normals-comment | sig-reddit-blender-normals-chitubox | topic-reddit-chitubox-weekly-2026-08-03 | Community Case File | Blender face orientation / inverted normals case | Repost/comment case | `Ring failing to print correctly...` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-03-case-blender-normals-comment.md` | published | What is your pre-slicer mesh check? |
 | Tue 2026-08-04 | 21:30 Beijing / 09:30 ET | reddit-2026-08-04-case-fep | sig-reddit-fep-release-film | topic-reddit-chitubox-weekly-2026-08-03 | Community Case File | Before you change 8 slicer settings, check your release film | Repost/crosspost + official first comment | `Can't get a successful print after 8+ attempts` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-03-case-fep.md` | published | How do you decide when a release film is done? |
 | Wed 2026-08-05 | 21:30 Beijing / 09:30 ET | reddit-2026-08-05-checklist-hollow-drain-holes | sig-reddit-hollow-cracking | topic-reddit-chitubox-weekly-2026-08-03 | Tiny Checklist | Before hollowing: angle first, then drain holes | Original checklist | `Hollow issues`, `wiki/drain-holes.md` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-05-checklist-hollow-drain-holes.md` | drafted | What is your minimum drain-hole setup for hollow models? |
-| Thu 2026-08-06 | 21:30 Beijing / 09:30 ET | reddit-2026-08-06-myth-aa-z-stepping | sig-reddit-aa-z-stepping | topic-reddit-chitubox-weekly-2026-08-03 | Slicer Myth | Anti-aliasing is not a magic eraser for every layer line | Original daily post | `Any advice for these sorts of layer lines` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-06-myth-aa-z-stepping.md` | package-needed | Do you usually diagnose lines as AA, angle, layer height, or resolution first? |
+| Thu 2026-08-06 | 21:30 Beijing / 09:30 ET | reddit-2026-08-06-myth-aa-z-stepping | sig-reddit-aa-z-stepping | topic-reddit-chitubox-weekly-2026-08-03 | Slicer Myth | Anti-aliasing is not a magic eraser for every layer line | Original daily post | `Any advice for these sorts of layer lines` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-06-myth-aa-z-stepping.md` | drafted | Do you usually diagnose lines as AA, angle, layer height, or resolution first? |
 | Fri 2026-08-07 | 21:30 Beijing / 09:30 ET | reddit-2026-08-07-fix-support-contact-marks | sig-reddit-support-contact-marks | topic-reddit-chitubox-weekly-2026-08-03 | Fix in 5 Steps | Support marks are a workflow problem, not just a support setting | Short mini-guide | `How to get rid of printing contact marks` | `outputs/topic-packages/reddit-chitubox-weekly-topics-2026-08-03.md` | `outputs/content-packages/reddit-2026-08-07-fix-support-contact-marks.md` | package-needed | What is your support-removal workflow? |
 
 ## Week 2
@@ -189,7 +189,7 @@ Track each post after 24 hours and 72 hours:
 | reddit-2026-08-03-actual-blender-normals-comment | sig-reddit-blender-normals-chitubox | https://www.reddit.com/r/CHITUBOX_Official/s/ja2Q0qxEWw |  |  |  |  | Posted instead of planned FEP case because reposts cannot add body text; Blender normals case was better suited to comment repost. |
 | reddit-2026-08-04-case-fep | sig-reddit-fep-release-film |  |  |  |  |  | Published on 2026-08-04; add URL and performance data after collection. |
 | reddit-2026-08-05-checklist-hollow-drain-holes | sig-reddit-hollow-cracking |  |  |  |  |  | Today's package generated after the 2026-08-04 FEP publish update. |
-| reddit-2026-08-06-myth-aa-z-stepping | sig-reddit-aa-z-stepping |  |  |  |  |  | Moved from 2026-08-04 because FEP case was published that day. |
+| reddit-2026-08-06-myth-aa-z-stepping | sig-reddit-aa-z-stepping |  |  |  |  |  | Package generated on 2026-08-06 after this slot moved from 2026-08-04. |
 | reddit-2026-08-07-fix-support-contact-marks | sig-reddit-support-contact-marks |  |  |  |  |  |  |
 | reddit-2026-08-10-case-blender-normals | sig-reddit-blender-normals-chitubox |  |  |  |  |  |  |
 | reddit-2026-08-11-myth-slicer-ready-mesh | sig-reddit-blender-normals-chitubox |  |  |  |  |  |  |
@@ -206,5 +206,4 @@ Trial decision after 2 weeks:
 
 ## Immediate Next Drafts Needed
 
-1. Week 1 Thursday: daily publishing package for `reddit-2026-08-06-myth-aa-z-stepping`.
-2. Week 1 Friday: daily publishing package for `reddit-2026-08-07-fix-support-contact-marks`.
+1. Week 1 Friday: daily publishing package for `reddit-2026-08-07-fix-support-contact-marks`.
