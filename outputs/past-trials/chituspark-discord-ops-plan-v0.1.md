@@ -1,8 +1,12 @@
 ---
-topics: [chituspark, discord, community-ops, pilot]
+topics:
+  - chituspark
+  - discord
+  - community-ops
+  - pilot
 source:
-  - "[[outputs/chituspark-grilling-alignment]]"
-  - "[[outputs/chituspark-4-week-pilot-plan-v0.1]]"
+  - "[[chituspark-grilling-alignment]]"
+  - "[[chituspark-4-week-pilot-plan-v0.1]]"
 created: 2026-08-05
 status: draft-v0.1
 audience: internal

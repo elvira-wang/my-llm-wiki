@@ -1,7 +1,11 @@
 ---
-topics: [chituspark, pilot, content-strategy, product-marketing]
+topics:
+  - chituspark
+  - pilot
+  - content-strategy
+  - product-marketing
 source:
-  - "[[outputs/chituspark-grilling-alignment]]"
+  - "[[chituspark-grilling-alignment]]"
 created: 2026-07-30
 status: draft-v0.1
 audience: product-leadership
