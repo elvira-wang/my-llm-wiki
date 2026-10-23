@@ -1,14 +1,14 @@
 ---
 title: "CHITUBOX 1.4.0：拆分模型，也安排好接下来的打印"
-language: zh-Hans
+language: [zh-Hans, en]
 status: draft
 created: 2026-10-23
 source: 用户提供的中文更新日志、功能说明及共同修订稿
 ---
 
-# CHITUBOX 1.4.0：拆分模型，也安排好接下来的打印
+# CHITUBOX V1.4.0：从分色拆件到堆叠打印
 
-有些模型，拆开才方便上色；有些小件，一次想多打几件。CHITUBOX 1.4.0 新增了分色拆件、图片标签和 Z 轴复制，也调整了自由切割与悬空检测的操作方式。一起来看看。
+拿到一个完整模型，不代表立刻就要完整地打印出来。有些部位拆开才方便上色，有些连接需要多切几处，有些小件您想一次多打几个。这次更新，我们从这些具体的打印准备开始。
 
 ## 有些部位，拆开来才方便上色
 
@@ -26,7 +26,7 @@ source: 用户提供的中文更新日志、功能说明及共同修订稿
 
 ## 批量打印，也可以向上安排
 
-士兵模型已经列好队，平台却站不下？您可以在“复制”中勾选“在Z方向复制”，将模型沿高度方向排列。软件会自动添加可调整的保护框架，帮助您准备堆叠打印任务，利用平台上方的空间。
+士兵模型已经列好队，平台却站不下？您可以在“复制”中勾选“在Z方向复制”，将模型沿高度方向排列。软件会自动添加可调整的保护框架，帮助您准备堆叠打印任务，充分利用平台上方的空间。
 
 较大的模型不建议采用堆叠打印。
 
@@ -56,4 +56,58 @@ source: 用户提供的中文更新日志、功能说明及共同修订稿
 
 [查看 CHITUBOX 1.4.0 完整更新日志](https://www.chitubox.com/zh-Hans/product/changelog)
 
-最后，祝您打印顺利。那队还等着上色的小兵，也别让他们等太久。
+最后，祝您打印顺利。希望这次打出来的模型，是您舍不得收进柜子里的那一个。
+
+---
+
+# CHITUBOX 1.4.0: From splitting models to stacking prints
+
+Your model comes in one piece. That doesn't mean you have to print it that way. Some parts are easier to paint separately. Some need more than one cut to come apart. And sometimes, you just want to print a few more small parts in one go. CHITUBOX 1.4.0 brings new ways to get those jobs ready. Let's take a look.
+
+## Some parts are easier to paint on their own
+
+The new Part tool starts by automatically dividing your model into color-coded regions. Adjust or merge those regions to suit the parts you want, then split the model along their boundaries. Planning to put everything back together after painting? You can add mortise-and-tenon joints to the cut surfaces, too.
+
+Results depend on the quality of your model. Problems with its internal geometry can cause cuts to fail or leave broken surfaces. Dividing a poor-quality model into many regions can also lead to these issues.
+
+## Give your artwork a little depth
+
+Want to add your own logo to a model, or turn an image into a relief? You can now add an image label. Import a grayscale image and use its light and dark areas to create raised or recessed details on the surface. Adjust the size and height, then choose an embossed or engraved effect. For more control over the result, you can adjust the black point, white point, and gamma.
+
+Making a stamp? Both text and image labels now support flipping, so you can get the artwork facing the right way before you print.
+
+Start with a high-contrast image and a clean background to help the details come through.
+
+## No room left? Think up.
+
+Got a whole squad of miniatures ready to print, but not enough room on the build plate? In the copy tool, enable copying along the Z axis to arrange models vertically. CHITUBOX automatically adds an adjustable protective frame to help you prepare a stacked print and make use of the space above the plate.
+
+Stacked printing isn't recommended for large models.
+
+## More than one cut. All in one go.
+
+Taking the handle off a cup? Cutting through one end won't quite do it. Free cutting now lets you draw multiple cutting surfaces at once, so parts attached in more than one place can be separated in a single operation. If your cutting path has a few too many twists and turns, you can also enable smoothing for a smoother cut surface.
+
+Adding joints? The new adaptive option automatically sizes mortise-and-tenon joints to fit the cut surface.
+
+Cutting results depend on model quality. Issues in the original model can cause cuts to fail, leave broken surfaces, or produce small fragments.
+
+## One island at a time. At your own pace.
+
+Add a support to an island and its marker now turns from yellow to light blue, staying visible instead of disappearing. The view no longer jumps back to the first untreated island, either. Stay where you are and keep checking or adding supports.
+
+Want automatic supports to skip an island? Mark it manually. Its marker turns purple, and automatic support generation leaves it alone. When you want to take another look, the new filter helps you find untreated or marked islands.
+
+## A few more things
+
+The start page now has an autosave tab, with thumbnails to help you recognize your saved projects. In settings, you can choose where autosaves go, how often they're created, how many to keep, and how long to keep them.
+
+You can also choose which cavities to fill, switch between global and local coordinate systems, or hold `Alt` while dragging a model to make a copy.
+
+The new global toolbar brings together tools for selection and measurement, with lasso and brush selection options. And if your computer has more than one graphics card, you can choose which one CHITUBOX uses in settings.
+
+We've also fixed lag when moving supported models during 3D collision detection, along with an issue that caused pixels to go missing during slicing at pixel sizes of 0.025 mm or smaller.
+
+[See the full CHITUBOX 1.4.0 changelog](https://www.chitubox.com/en/product/changelog)
+
+Here's to a good print, and a model you'll want to leave out on display.
