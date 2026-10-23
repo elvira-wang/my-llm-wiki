@@ -34,7 +34,7 @@ Results depend on the quality of your model. Problems with its internal geometry
 
 想给模型加上自己的 Logo，或做出浮雕效果？“标签”新增了“图片”功能。导入黑白灰度图，用图像的明暗控制表面的凸起与凹陷，再根据需要调整大小和高度，选择阳刻或阴刻。想进一步调整图案的凹凸效果，还可以修改黑阶、白阶和 Gamma 值。
 
-Want to add your own logo to a model, or turn an image into a relief? You can now add an image label. Import a grayscale image and use its light and dark areas to create raised or recessed details on the surface. Adjust the size and height, then choose an embossed or engraved effect. For more control over the result, you can adjust the black point, white point, and gamma.
+Want to add your own logo to a model, or turn an image into a relief? You can now add an image label. Import a grayscale image and use its light and dark areas to create raised or recessed details on the surface. Adjust the size and depth, then choose an embossed or sunken relief type. For more control over the result, you can adjust the black level, white level, and gamma.
 
 如果准备制作印章，文字标签和图片标签现在都支持翻转，可以在打印前调整图案方向。
 
@@ -50,7 +50,7 @@ Start with a high-contrast image and a clean background to help the details come
 
 士兵模型已经列好队，平台却站不下？您可以在“复制”中勾选“在Z方向复制”，将模型沿高度方向排列。软件会自动添加可调整的保护框架，帮助您准备堆叠打印任务，充分利用平台上方的空间。
 
-Got a whole squad of miniatures ready to print, but not enough room on the build plate? In the copy tool, enable copying along the Z axis to arrange models vertically. CHITUBOX automatically adds an adjustable protective frame to help you prepare a stacked print and make use of the space above the plate.
+Got a whole squad of miniatures ready to print, but not enough room on the build plate? In the copy tool, enable copying in Z direction to arrange models vertically. CHITUBOX automatically adds an adjustable protective frame to help you prepare a stacked print and make use of the space above the plate.
 
 较大的模型不建议采用堆叠打印。
 
@@ -74,11 +74,11 @@ Cutting results depend on model quality. Issues in the original model can cause 
 
 ## 加完你的，加你的，节奏尽在掌握中
 
-## One island at a time. At your own pace.
+## One overhang point at a time. At your own pace.
 
 给悬空点添加支撑后，该点会从黄色变为水蓝色，保留在视图中，也不再自动跳回首个未处理的悬空点。您可以留在当前位置，继续检查和添加支撑。
 
-Add a support to an island and its marker now turns from yellow to light blue, staying visible instead of disappearing. The view no longer jumps back to the first untreated island, either. Stay where you are and keep checking or adding supports.
+Add a support to an overhang area and its marker now turns from yellow to light blue, staying visible instead of disappearing. The view no longer jumps back to the first untreated island, either. Stay where you are and keep checking or adding supports.
 
 希望自动加支撑时跳过某个悬空点？给它添加标记，该点就会变为紫色，并在自动加支撑时被忽略。需要回头检查时，可以用新增的筛选器查找未处理或已标记的悬空点。
 
