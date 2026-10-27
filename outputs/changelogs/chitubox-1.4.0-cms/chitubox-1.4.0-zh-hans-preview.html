@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHITUBOX V1.4.0：从分色拆件到堆叠打印</title>
+</head>
+<body style="margin: 0;">
+<!-- CHITUBOX 1.4.0 / zh-Hans：CMS 正文源码。五处演示 + 一处结尾照片，素材当前为可视占位。 -->
+<div lang="zh-Hans" style="position: relative; isolation: isolate; overflow: hidden; background: #ffffff; color: #172d46; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;">
+<div aria-hidden="true" style="position: absolute; right: 0; bottom: 0; left: 0; height: 620px; pointer-events: none; z-index: 0; background: linear-gradient(to top, rgba(0,111,255,.16) 0%, rgba(0,111,255,.06) 45%, rgba(0,111,255,0) 100%);">&nbsp;</div>
+<div style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 56px 20px 64px;">
+<div style="max-width: 880px; margin: 0 auto 76px; text-align: center;">
+<h1 style="margin: 0 0 28px; font-size: clamp(28px, 3.2vw, 42px); line-height: 1.35; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">CHITUBOX V1.4.0：从分色拆件到堆叠打印</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.9; color: #52667b;">拿到一个完整模型，不代表立刻就要完整地打印出来。有些部位拆开才方便上色，有些连接需要多切几处，有些小件您想一次多打几个。这次更新，我们从这些具体的打印准备开始。</p>
+</div>
+<!-- FEATURE_01 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">01 / 拆件</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">有些部位，拆开来才方便上色</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">新增的“拆件”功能会先为模型智能分色。您可以根据需要调整、合并分色区域，再按区域拆分模型。如果准备在上色后重新装配，还可以选择为切割面添加榫卯。</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">拆件效果受模型质量影响。内部结构存在问题，或区域划分较多且模型质量不佳时，可能出现切割失败或破面。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_01: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_01_URL" alt="01 / 拆件" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_01_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_01_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">01 / 拆件</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">录屏 / GIF 素材位置</p>
+</div>
+<!-- END_MEDIA_01_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_02 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">02 / 图片标签</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">把图案，变成凹凸</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">想给模型加上自己的 Logo，或做出浮雕效果？“标签”新增了“图片”功能。导入黑白灰度图，用图像的明暗控制表面的凸起与凹陷，再根据需要调整大小和高度，选择阳刻或阴刻。想进一步调整图案的凹凸效果，还可以修改黑阶、白阶和 Gamma 值。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">如果准备制作印章，文字标签和图片标签现在都支持翻转，可以在打印前调整图案方向。</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">建议使用对比鲜明、背景干净的图片，让图案细节更容易呈现。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_02: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_02_URL" alt="02 / 图片标签" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_02_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_02_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">02 / 图片标签</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">录屏 / GIF 素材位置</p>
+</div>
+<!-- END_MEDIA_02_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_03 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">03 / Z 轴复制</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">批量打印，也可以向上安排</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">士兵模型已经列好队，平台却站不下？您可以在“复制”中勾选“在Z方向复制”，将模型沿高度方向排列。软件会自动添加可调整的保护框架，帮助您准备堆叠打印任务，充分利用平台上方的空间。</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">较大的模型不建议采用堆叠打印。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_03: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_03_URL" alt="03 / Z 轴复制" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_03_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_03_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">03 / Z 轴复制</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">录屏 / GIF 素材位置</p>
+</div>
+<!-- END_MEDIA_03_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_04 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">04 / 自由切割</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">多个切面，一次完成</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">把茶杯把手拆下来，切开一端还不够。自由切割现在支持同时绘制多个切割面，让需要切开多处连接的部件也能在一次操作中完成拆分。遇到曲折的切割路径，还可以开启光滑处理，形成更顺滑的切割面。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">需要添加榫卯时，新增的自适应功能会根据切割面尺寸，自动生成大小合适的榫卯。</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">切割效果受模型质量影响。如果原模型存在质量问题，可能出现切割失败、破面或碎面。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_04: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_04_URL" alt="04 / 自由切割" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_04_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_04_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">04 / 自由切割</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">录屏 / GIF 素材位置</p>
+</div>
+<!-- END_MEDIA_04_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_05 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">05 / 悬空检测</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">加完你的，加你的，节奏尽在掌握中</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">给悬空点添加支撑后，该点会从黄色变为水蓝色，保留在视图中，也不再自动跳回首个未处理的悬空点。您可以留在当前位置，继续检查和添加支撑。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">希望自动加支撑时跳过某个悬空点？给它添加标记，该点就会变为紫色，并在自动加支撑时被忽略。需要回头检查时，可以用新增的筛选器查找未处理或已标记的悬空点。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_05: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_05_URL" alt="05 / 悬空检测" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_05_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_05_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">05 / 悬空检测</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">录屏 / GIF 素材位置</p>
+</div>
+<!-- END_MEDIA_05_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<div style="max-width: 880px; margin: 0 auto 76px; padding-top: 36px; border-top: 1px solid #dce8f2;">
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere; color: #2379bc;">还有这些改进</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">开始页新增了自动保存标签页，您可以通过缩略图辨认自动保存文件。保存目录、间隔、文件数量上限和保留期，也可以在设置中调整。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">处理模型时，您可以自由选择要填充的空腔，切换全局或局部坐标系，或在拖动模型时按住 <code style="padding: 2px 6px; border-radius: 4px; background: #edf3fa; color: #173d67; font-size: .95em;">Alt</code> 创建副本。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">全局工具栏整合了选择、测量等工具，并新增套索、刷选等选择方式。使用多显卡电脑的用户，也可以在设置中指定运行 CHITUBOX 的显卡。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">此外，我们修复了带支撑模型进行 3D 碰撞检测时移动卡顿，以及像素尺寸不大于 0.025 mm 时切片过程中像素丢失等问题。</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere; margin-top: 28px;"><a href="https://www.chitubox.com/zh-Hans/product/changelog" style="color: #1269bc; text-decoration: underline; text-underline-offset: 4px;">查看 CHITUBOX 1.4.0 完整更新日志 &rarr;</a></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 36px 48px; padding-top: 24px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0; font-size: 23px; line-height: 1.85; color: #244763;">最后，祝您打印顺利。希望这次打出来的模型，是您舍不得收进柜子里的那一个。</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_06: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_06_URL" alt="结尾照片" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+-->
+<!-- BEGIN_MEDIA_06_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 4 / 3; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">结尾照片</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">替换为成品照片</p>
+</div>
+<!-- END_MEDIA_06_PLACEHOLDER -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

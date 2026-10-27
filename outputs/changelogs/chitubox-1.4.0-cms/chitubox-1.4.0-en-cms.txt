@@ -1,0 +1,179 @@
+<!-- CHITUBOX 1.4.0 / en：CMS 正文源码。五处演示 + 一处结尾照片，素材当前为可视占位。 -->
+<div lang="en" style="position: relative; isolation: isolate; overflow: hidden; background: #ffffff; color: #172d46; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;">
+<div aria-hidden="true" style="position: absolute; right: 0; bottom: 0; left: 0; height: 620px; pointer-events: none; z-index: 0; background: linear-gradient(to top, rgba(0,111,255,.16) 0%, rgba(0,111,255,.06) 45%, rgba(0,111,255,0) 100%);">&nbsp;</div>
+<div style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 56px 20px 64px;">
+<div style="max-width: 880px; margin: 0 auto 76px; text-align: center;">
+<h1 style="margin: 0 0 28px; font-size: clamp(28px, 3.2vw, 42px); line-height: 1.35; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">CHITUBOX 1.4.0: From splitting models to stacking prints</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.9; color: #52667b;">Your model comes in one piece. That doesn&#x27;t mean you have to print it that way. Some parts are easier to paint separately. Some need more than one cut to come apart. And sometimes, you just want to print a few more small parts in one go. CHITUBOX 1.4.0 brings new ways to get those jobs ready. Let&#x27;s take a look.</p>
+</div>
+<!-- FEATURE_01 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">01 / Part</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">Some parts are easier to paint on their own</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">The new Part tool starts by automatically dividing your model into color-coded regions. Adjust or merge those regions to suit the parts you want, then split the model along their boundaries. Planning to put everything back together after painting? You can add mortise-and-tenon joints to the cut surfaces, too.</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">Results depend on the quality of your model. Problems with its internal geometry can cause cuts to fail or leave broken surfaces. Dividing a poor-quality model into many regions can also lead to these issues.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_01: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_01_URL" alt="01 / Part" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_01_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_01_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">01 / Part</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Screen recording / GIF goes here</p>
+</div>
+<!-- END_MEDIA_01_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_02 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">02 / Image labels</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">Give your artwork a little depth</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Want to add your own logo to a model, or turn an image into a relief? You can now add an image label. Import a grayscale image and use its light and dark areas to create raised or recessed details on the surface. Adjust the size and depth, then choose an embossed or sunken relief type. For more control over the result, you can adjust the black level, white level, and gamma.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Making a stamp? Both text and image labels now support flipping, so you can get the artwork facing the right way before you print.</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">Start with a high-contrast image and a clean background to help the details come through.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_02: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_02_URL" alt="02 / Image labels" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_02_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_02_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">02 / Image labels</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Screen recording / GIF goes here</p>
+</div>
+<!-- END_MEDIA_02_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_03 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">03 / Z-axis copying</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">No room left? Think up.</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Got a whole squad of miniatures ready to print, but not enough room on the build plate? In the copy tool, enable copying in Z direction to arrange models vertically. CHITUBOX automatically adds an adjustable protective frame to help you prepare a stacked print and make use of the space above the plate.</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">Stacked printing isn&#x27;t recommended for large models.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_03: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_03_URL" alt="03 / Z-axis copying" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_03_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_03_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">03 / Z-axis copying</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Screen recording / GIF goes here</p>
+</div>
+<!-- END_MEDIA_03_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_04 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">04 / Free cutting</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">More than one cut. All in one go.</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Taking the handle off a cup? Cutting through one end won&#x27;t quite do it. Free cutting now lets you draw multiple cutting surfaces at once, so parts attached in more than one place can be separated in a single operation. If your cutting path has a few too many twists and turns, you can also enable smoothing for a smoother cut surface.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Adding joints? The new adaptive option automatically sizes mortise-and-tenon joints to fit the cut surface.</p>
+<p style="margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid #69a8de; background: #f2f7fc; border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.8; color: #4c627a;">Cutting results depend on model quality. Issues in the original model can cause cuts to fail, leave broken surfaces, or produce small fragments.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_04: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_04_URL" alt="04 / Free cutting" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_04_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_04_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">04 / Free cutting</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Screen recording / GIF goes here</p>
+</div>
+<!-- END_MEDIA_04_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<!-- FEATURE_05 -->
+<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 40px 48px; align-items: center; margin-bottom: 88px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0 0 12px; font-size: 14px; line-height: 1.6; font-weight: 600; letter-spacing: 1px; color: #2379bc;">05 / Overhang detection</p>
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere;">One overhang point at a time. At your own pace.</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Add a support to an overhang area and its marker now turns from yellow to light blue, staying visible instead of disappearing. The view no longer jumps back to the first untreated island, either. Stay where you are and keep checking or adding supports.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">Want automatic supports to skip an island? Mark it manually. Its marker turns purple, and automatic support generation leaves it alone. When you want to take another look, the new filter helps you find untreated or marked islands.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_05: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_05_URL" alt="05 / Overhang detection" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+MP4 录屏（点击播放，不自动播放声音）：
+<video controls="controls" playsinline="playsinline" preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+  <source src="REPLACE_MEDIA_05_URL" type="video/mp4">
+  您的浏览器不支持视频，请使用支持 HTML5 视频的浏览器。
+</video>
+-->
+<!-- BEGIN_MEDIA_05_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 16 / 9; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">05 / Overhang detection</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Screen recording / GIF goes here</p>
+</div>
+<!-- END_MEDIA_05_PLACEHOLDER -->
+</div>
+</div>
+</div>
+<div style="max-width: 880px; margin: 0 auto 76px; padding-top: 36px; border-top: 1px solid #dce8f2;">
+<h2 style="margin: 0 0 24px; font-size: 28px; line-height: 1.4; font-weight: 700; color: #172d46; overflow-wrap: anywhere; color: #2379bc;">A few more things</h2>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">The start page now has an autosave tab, with thumbnails to help you recognize your saved projects. In settings, you can choose where autosaves go, how often they&#x27;re created, how many to keep, and how long to keep them.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">You can also choose which cavities to fill, switch between global and local coordinate systems, or hold <code style="padding: 2px 6px; border-radius: 4px; background: #edf3fa; color: #173d67; font-size: .95em;">Alt</code> while dragging a model to make a copy.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">The new global toolbar brings together tools for selection and measurement, with lasso and brush selection options. And if your computer has more than one graphics card, you can choose which one CHITUBOX uses in settings.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere;">We&#x27;ve also fixed lag when moving supported models during 3D collision detection, along with an issue that caused pixels to go missing during slicing at pixel sizes of 0.025 mm or smaller.</p>
+<p style="margin: 0 0 18px; font-size: 18px; line-height: 1.85; color: #334155; overflow-wrap: anywhere; margin-top: 28px;"><a href="https://www.chitubox.com/en/product/changelog" style="color: #1269bc; text-decoration: underline; text-underline-offset: 4px;">See the full CHITUBOX 1.4.0 changelog &rarr;</a></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 36px 48px; padding-top: 24px;">
+<div style="flex: 1 1 360px; min-width: 0;">
+<p style="margin: 0; font-size: 23px; line-height: 1.85; color: #244763;">Here&#x27;s to a good print, and a model you&#x27;ll want to leave out on display.</p>
+</div>
+<div style="flex: 1.15 1 440px; min-width: 0; width: 100%;">
+<div style="padding: 4px; border-radius: 18px; background: linear-gradient(135deg, #0c3468 0%, #3e88be 32%, #5ca8d7 55%, #407bf0 78%, #062a5e 100%); box-shadow: 0 0 0 1px rgba(255,255,255,.65), 0 6px 24px rgba(0,111,255,.18); overflow: hidden;">
+<!-- MEDIA_06: 将 BEGIN / END 之间的占位 div 整段替换为下面的一种媒体标签，删除注释符号后生效。
+GIF / 照片：
+<img src="REPLACE_MEDIA_06_URL" alt="Closing photo" loading="lazy" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 14px;">
+-->
+<!-- BEGIN_MEDIA_06_PLACEHOLDER -->
+<div style="box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; aspect-ratio: 4 / 3; padding: 28px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-radius: 14px; background: linear-gradient(145deg, #f5f9ff, #e3effc); color: #285b87;">
+  <p style="margin: 0 0 12px; font-size: 18px; line-height: 1.6; font-weight: 600;">Closing photo</p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.6;">Replace with your finished print photo</p>
+</div>
+<!-- END_MEDIA_06_PLACEHOLDER -->
+</div>
+</div>
+</div>
+</div>
+</div>
