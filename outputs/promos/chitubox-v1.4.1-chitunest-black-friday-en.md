@@ -2,7 +2,7 @@
 
 Your next resin print starts with a model, but it also needs materials and supplies. In CHITUBOX v1.4.1, we're bringing those parts of your printing routine closer together by integrating the ChituNest store into the software's home page. You can now explore resins and accessories from the ChituNest section while you're in CHITUBOX, with the store also accessible through a web browser.
 
-To celebrate the launch, ChituNest is kicking off its Black Friday campaign with special prices for new customers and a CHITUBOX license giveaway. Whether you're getting ready for another project or looking ahead to your next supply purchase, there's a new place to start browsing.
+To celebrate the launch, ChituNest is kicking off its Black Friday campaign with promotional prices and 25 CHITUBOX Dental license prizes. Whether you're getting ready for another project or looking ahead to your next supply purchase, there's a new place to start browsing, with a chance to win a software license along the way.
 
 ## Meet ChituNest
 
@@ -10,15 +10,22 @@ ChituNest brings together resins and accessories from brands including Resione, 
 
 Perhaps you're preparing a new model and want to explore resin options. Perhaps you're planning to replenish your supplies before starting another batch. Open the ChituNest section to browse the available products, then choose what fits your project and equipment. You can also visit the store in your browser when you're away from the slicer.
 
-The choice of where to browse is yours. The addition in v1.4.1 puts ChituNest within reach from the same software you use to prepare your models, so your next visit can begin right from the home page.
+ChituNest's product listings are available to users outside China; products are not displayed to users in China. For overseas users, the new home page integration offers a convenient starting point for browsing printing supplies.
 
 ## Black Friday Starts with the Launch
 
-ChituNest's launch arrives with two reasons to take a closer look: new-customer pricing and a CHITUBOX license giveaway.
+The Black Friday campaign is planned to run from November 11 through December 6, 2026. The opening date is tentative and will depend on the store's launch date.
 
-If you're new to ChituNest, explore the special new-customer prices as you browse the launch offers. It's an opportunity to consider the supplies on your shopping list alongside the products available in the store. Start with what you need for your next project, compare your options, and check the applicable offer details before choosing.
+Promotional pricing will be available for purchases made during the campaign, whether you're a new or returning customer. Browse the offers with your next project in mind, explore the available resins and accessories, and check the prices shown in the store when you're ready to buy.
 
-The launch campaign also includes a chance to win a CHITUBOX license. Keep an eye on the giveaway information for participation details and the licenses available. Alongside the new-customer offers, it gives the Black Friday launch something for users interested in both printing supplies and CHITUBOX software.
+The giveaway will draw winners from customers who make a purchase on ChituNest during the Black Friday campaign. There are 25 CHITUBOX Dental license prizes in total:
+
+- 5 one-year licenses
+- 5 six-month licenses
+- 5 three-month licenses
+- 10 one-month licenses
+
+Every prize is for the Dental tier, CHITUBOX's highest access level, with license durations ranging from one month to a full year. A campaign purchase gives you a chance to win; a license is not guaranteed with every order. Look for the final giveaway details when the campaign opens.
 
 ## More Control When Copying Models
 
@@ -30,6 +37,6 @@ The release also adds support for EvoDent E128 and E230 printers. We've fixed is
 
 ## Explore ChituNest in CHITUBOX v1.4.1
 
-Open CHITUBOX v1.4.1 and head to the ChituNest section on the home page to explore the store. Browse the resin and accessory selection, discover the Black Friday new-customer offers, and check out the CHITUBOX license giveaway.
+Open CHITUBOX v1.4.1 and head to the ChituNest section on the home page to explore the store. Browse the resin and accessory selection, discover the Black Friday prices, and shop during the campaign for a chance to win one of 25 CHITUBOX Dental licenses.
 
 Bring your next project and your supply list. ChituNest is ready to be part of how you prepare for your next print.
