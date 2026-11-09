@@ -1,6 +1,6 @@
 # 简体中文
 
-CHITUBOX v1.4.1 来啦！这次我们新增了 ChituNest 耗材商城板块，提供了更灵活的模型复制模式，还修复了自由切割、带支撑复制和启动页渲染相关问题。
+在 CHITUBOX v1.4.1 中，我们新增了 ChituNest 耗材商城板块，提供了更灵活的模型复制模式，也修复了自由切割、带支撑复制和启动页渲染相关问题。
 
 ## 🚀 新增功能
 
@@ -21,7 +21,7 @@ CHITUBOX v1.4.1 来啦！这次我们新增了 ChituNest 耗材商城板块，�
 
 # 繁體中文
 
-CHITUBOX v1.4.1 來啦！這次我們新增了 ChituNest 耗材商城板塊，提供了更靈活的模型複製模式，還修復了自由切割、帶支撐複製和啟動頁渲染相關問題。
+在 CHITUBOX v1.4.1 中，我們新增了 ChituNest 耗材商城板塊，提供了更靈活的模型複製模式，也修復了自由切割、帶支撐複製和啟動頁渲染相關問題。
 
 ## 🚀 新增功能
 
@@ -42,7 +42,7 @@ CHITUBOX v1.4.1 來啦！這次我們新增了 ChituNest 耗材商城板塊，�
 
 # English
 
-CHITUBOX v1.4.1 is here! We've added a supplies section to the ChituNest store and more flexible model duplication modes. We've also fixed issues with Freeform Cutting, duplicating models with supports, and rendering initialization on the Start page.
+In CHITUBOX v1.4.1, we've added a supplies section to the ChituNest store and more flexible model duplication modes. We've also fixed issues with Freeform Cutting, duplicating models with supports, and rendering initialization on the Start page.
 
 ## 🚀 New Features
 
