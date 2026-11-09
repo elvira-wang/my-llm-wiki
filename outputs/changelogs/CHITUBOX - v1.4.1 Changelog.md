@@ -42,11 +42,11 @@
 
 # English
 
-In CHITUBOX v1.4.1, we've added a supplies section to the ChituNest store and more flexible model duplication modes. We've also fixed issues with Free Cut, duplicating models with supports, and rendering initialization on the start page.
+In CHITUBOX v1.4.1, we've introduced the ChituNest store within the app and added more flexible model duplication modes. We've also fixed issues with Free Cut, duplicating models with supports, and rendering initialization on the start page.
 
 🚀 New Features
 
-● ChituNest Store: Added a supplies section offering resins and accessories from brands including Resione, JAMG HE, and Chitu Systems.
+● ChituNest Store: Added an in-app store offering resins and accessories from brands including Resione, JAMG HE, and Chitu Systems.
 
 💫 Improvements
 
