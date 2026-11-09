@@ -42,15 +42,15 @@
 
 # English
 
-In CHITUBOX v1.4.1, we've introduced the ChituNest store within the app and added more flexible model duplication modes. We've also fixed issues with Free Cut, duplicating models with supports, and rendering initialization on the start page.
+In CHITUBOX v1.4.1, we've integrated the ChituNest store into the home page and added an option to control how spacing is calculated when copying models. We've also fixed issues with Free Cut, duplicating models with supports, and rendering initialization on the start page.
 
 🚀 New Features
 
-● ChituNest Store: Added an in-app store offering resins and accessories from brands including Resione, JAMG HE, and Chitu Systems.
+● ChituNest Store: Integrated the ChituNest store into the home page, offering resins and accessories from brands including Resione, JAMG HE, and Chitu Systems.
 
 💫 Improvements
 
-● Duplication Modes: Added an option for two duplication modes that calculate spacing between supports or between models only.
+● Copy: Added a "Model Spacing Only" option. When checked, the entered spacing applies between models only. When unchecked (the default), it applies between supports if the models have supports.
 
 ● Printer Support: Added EvoDent E128 and E230.
 
