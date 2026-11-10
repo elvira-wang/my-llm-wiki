@@ -33,7 +33,7 @@
 - [Chitu Systems H2 官方页](https://www.chitusystems.com/products/chitu-h2-3d-printer-heater?variant=46074147668204)：支持腔体加热、温度可调、到达目标后暂停加热并在降温后恢复的描述；需核对安装空间和兼容性。不声称适配所有打印机、消除打印失败或精准恒温，也不将其写成主动制冷设备。未引用该独立站价格作为 ChituNest 活动价。
 - [PlateCycler C1 官方页](https://www.chitusystems.com/products/platecycler-c1-auto-plate-changer-for-bambu-lab-a1?variant=48234872439020)：为 Bambu Lab A1 自动换盘设备，且有机型配置兼容限制。本篇面向树脂打印用户，选择 H2 与 ABS+ 搭配，避免展开 FDM 设备介绍。
 - 商品参考链接留在编辑说明中，宣传正文的购买链接应使用最终 ChituNest 落地页。
-- 更多品牌加盟：尚无确认的引入计划，暂不写入正文。若品牌方确认在推进，可在商品段末加入一句计划性表达，不承诺品牌名称或上线日期。
+- 更多品牌加盟：用户已确认加入计划性表达 "We're working to bring more brands and products to ChituNest."。JAMG HE 仅因价格未定暂不上架，后续仍有可能加入；正文不点名未上架品牌，不承诺上架结果或时间。
 
 ## 文章结构与素材
 

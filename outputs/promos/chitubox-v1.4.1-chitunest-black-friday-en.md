@@ -10,6 +10,8 @@ Stock up on resin or pick up accessories at Black Friday prices. The campaign ru
 
 Printing in a colder workspace? The **Chitu Systems H2 Mini Heater** helps warm your resin printer's chamber, with adjustable temperature settings and automatic heating control. Check your printer's installation space and compatibility before choosing it.
 
+We're working to bring more brands and products to ChituNest.
+
 ## Win a CHITUBOX Dental License
 
 Make a purchase on ChituNest during the campaign for a chance to win a CHITUBOX Dental license. We'll draw winners from campaign customers, with the following prizes:
