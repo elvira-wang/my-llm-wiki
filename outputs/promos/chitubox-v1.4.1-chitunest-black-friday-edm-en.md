@@ -22,6 +22,8 @@ Save $7.01 per kg on a resin that combines high stiffness with toughness, ideal 
 
 ### Your Purchase Could Win You a Dental License
 
+**Dental is CHITUBOX's highest membership tier, giving you access to all paid features in the software for the duration of your membership.**
+
 Make a purchase on ChituNest during the campaign for a chance to win. We'll draw winners from campaign customers for **25 CHITUBOX Dental licenses**:
 
 - 5 one-year licenses
@@ -52,6 +54,7 @@ The CHITUBOX Team
 - 主按钮文案：Shop ChituNest Black Friday Deals
 - 主按钮链接：待补 ChituNest 商城或活动落地页；正文方括号为按钮位置，不是有效链接，发送前替换
 - ABS+ 包邮仅修饰该商品，不能扩展成商城全场包邮；H2 价格未确认，不写报价
+- Dental 权益由用户确认：最高会员等级，会员有效期内可使用软件内所有付费功能；不表述为永久授权
 - 不写新客专享、不承诺每笔订单单独获得抽奖机会、不承诺购买必得 license；未来品牌不点名、不承诺时间
 - 上线日仍待确认，不写死暂定的 11 月 11 日；发送前核对活动结束时间、时区及最终抽赠规则
 - 使用现有 EDM 模板的品牌署名、退订链接和发件人信息；本文件仅交付文案，未发送邮件
