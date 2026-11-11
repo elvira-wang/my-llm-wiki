@@ -2,7 +2,7 @@
 
 ## Subject
 
-Meet ChituNest: ABS+ at $51.99/kg + Free Shipping
+Meet ChituNest: Printing Supplies + a Dental License Giveaway
 
 ## Preheader
 
@@ -12,13 +12,13 @@ Shop through December 6 for a chance to win one of 25 CHITUBOX Dental licenses.
 
 ### Meet ChituNest. Get Ready for Your Next Print.
 
-We're bringing resins and accessories from RESIONE and Chitu Systems to the CHITUBOX home page with **ChituNest**, new in v1.4.1. To celebrate, we're launching Black Friday deals for new and returning customers.
+We're bringing resins and accessories from RESIONE and Chitu Systems to the CHITUBOX home page with **ChituNest**, new in v1.4.1. Our Black Friday launch campaign gives new and returning customers a chance to win a Dental license when they shop.
 
-### RESIONE ABS+: Save Nearly 12%
+### RESIONE ABS+: Stiffness Meets Toughness
 
-**Was $59/kg. Now $51.99/kg, with free shipping.**
+**$56.99/kg with free shipping.**
 
-Save $7.01 per kg on a resin that combines high stiffness with toughness, ideal for projects such as functional prototypes and device housings.
+Explore a resin that combines high stiffness with toughness for projects such as functional prototypes and device housings.
 
 ### Your Purchase Could Win You a Dental License
 
@@ -35,11 +35,13 @@ Make a purchase on ChituNest during the campaign for a chance to win. We'll draw
 
 Explore the **Chitu Systems H2 Mini Heater** for adjustable chamber heating and automatic heating control. Check installation space and printer compatibility before ordering.
 
+For your FDM setup, discover the **FilaPartner E1 Filament Dryer** and **PlateCycler C1M Auto Plate Changer for Bambu Lab A1 Mini**.
+
 We're also working to bring more brands and products to ChituNest.
 
-**Black Friday offers end December 6, 2026.**
+**Shop by December 6, 2026, for a chance to win.**
 
-**[Shop ChituNest Black Friday Deals]**
+**[Explore ChituNest]**
 
 The CHITUBOX Team
 
@@ -48,10 +50,10 @@ The CHITUBOX Team
 ## 编辑与投放说明（不放入邮件正文）
 
 - 用途：ChituNest 上线 / 黑五启动邮件；按商城与活动已上线时发送的口吻撰写
-- 受众与目标：CHITUBOX 用户，以具体树脂优惠吸引点击，并用消费用户 Dental 抽赠加强购买动机
+- 受众与目标：CHITUBOX 用户，以商城上线、商品选择和 Dental 抽赠吸引点击；ABS+ 价格作为商品信息，不强调降幅
 - 来源：本任务用户确认的活动机制与商品报价；outputs/promos/chitubox-v1.4.1-chitunest-black-friday-en.md；产品官方来源见对应 editorial-notes 文件
-- 结构：商城上线 -> ABS+ 具体优惠 -> 抽赠 -> H2 配件 -> 单一购物 CTA
-- 主按钮文案：Shop ChituNest Black Friday Deals
+- 结构：商城上线 -> ABS+ 商品 -> 抽赠 -> H2 与 FDM 配件 -> 单一购物 CTA
+- 主按钮文案：Explore ChituNest
 - 主按钮链接：待补 ChituNest 商城或活动落地页；正文方括号为按钮位置，不是有效链接，发送前替换
 - ABS+ 包邮仅修饰该商品，不能扩展成商城全场包邮；H2 价格未确认，不写报价
 - Dental 权益由用户确认：最高会员等级，会员有效期内可使用软件内所有付费功能；不表述为永久授权
