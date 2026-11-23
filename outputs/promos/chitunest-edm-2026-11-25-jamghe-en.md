@@ -38,9 +38,11 @@ Bring color gradients to your creative prints. Choose a silk or matte finish for
 
 An economical choice for everyday resin printing, with fine detail and a smooth surface finish.
 
-**Up to 40% off. Approximately $11.44/kg with the 20 kg bundle.**
+**Save approximately 40% on the 6 kg bundle.** For the lowest price per kg, choose the 20 kg bundle at approximately $11.44/kg.
 
-6 kg: **$78.25** | 10 kg: **$122.10** | 20 kg: **$228.82**
+- 6 kg: Was $130.96 | **Now $78.25**
+- 10 kg: Was $172.32 | **Now $122.10**
+- 20 kg: Was $240.12 | **Now $228.82**
 
 **[Shop Eco Standard Resin]**
 
@@ -66,7 +68,7 @@ The CHITUBOX Team
 - 价格全部来自本轮用户资料，非官网当前报价。沿用前轮地区币种说明，但本轮未重新明确美国范围，正文写 USD reference prices，不假设全球统一价
 - 20 kg 线材组合装均为 $198.08，折合 $9.904/kg；使用 approximately $9.90/kg，不能单独写无门槛 $9.90/kg
 - Eco 20 kg 组合装 $228.82，折合 $11.441/kg；正文用 approximately $11.44/kg，替代资料中的粗略 ~$11.5/kg
-- Up to 40% off 来自用户提供的活动卖点；未提供原价及适用规格，不能从三档活动总价独立验证。发布前核对商城促销基准及适用规格；若不能确认，删除该短句，保留实际总价和折算单价
+- Eco 三档原价由用户补充确认：6 kg $130.96、10 kg $172.32、20 kg $240.12。折扣分别约 40.25%、29.14%、4.71%；正文明确约 40% 对应 6 kg 装，最低每公斤价对应 20 kg 装，避免混淆
 - 不加入品牌官网横幅中的优惠码、包邮、赠烘干机或混色规则；这些未被确认适用于 ChituNest。本稿也不把 Eco 名称扩写为环保认证、植物基或无毒承诺
 - 抽赠机制沿用用户确认：本期消费用户中抽 25 个 Dental 名额，有效期内可用全部付费功能，截止 2026-12-06；不是本轮新增 25 个奖品，也不承诺买多次获得多次机会
 - 发送前确认商品库存、实际区域价格、三个落地页和最终活动细则；使用品牌模板现有署名、退订与发件信息
@@ -78,6 +80,14 @@ The CHITUBOX Team
 | High Speed PETG | $66.90 / $11.15 | $101.28 / 约 $10.13 | $198.08 / 约 $9.90 |
 | Rainbow PLA | $75.60 / $12.60 | $115.79 / 约 $11.58 | $198.08 / 约 $9.90 |
 | Eco Standard Resin | $78.25 / 约 $13.04 | $122.10 / $12.21 | $228.82 / 约 $11.44 |
+
+Eco Standard Resin 原价与折扣：
+
+| 组合装 | 原价 | 活动价 | 节省金额 | 折扣 |
+|---|---|---|---|---|
+| 6 kg | $130.96 | $78.25 | $52.71 | 约 40.25% |
+| 10 kg | $172.32 | $122.10 | $50.22 | 约 29.14% |
+| 20 kg | $240.12 | $228.82 | $11.30 | 约 4.71% |
 
 ## 商品来源（不发送）
 
