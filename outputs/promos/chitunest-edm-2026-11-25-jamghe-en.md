@@ -12,7 +12,7 @@ Filament from approximately $9.90/kg with 20 kg bundles, plus our Dental license
 
 ### Welcome JAMG HE to ChituNest
 
-More materials for your next project: JAMG HE has joined ChituNest with high-speed PETG, colorful rainbow PLA, and Eco Standard resin. Explore Black Friday bundles for both FDM and resin printing.
+JAMG HE is now on ChituNest, bringing you more choices in filament and resin. This week, explore three highlights: High Speed PETG, Silk / Matte Rainbow PLA, and Eco Standard Resin.
 
 ### High Speed PETG Filament
 
