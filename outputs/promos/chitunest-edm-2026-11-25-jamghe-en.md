@@ -2,7 +2,7 @@
 
 ## Subject
 
-New on ChituNest: JAMG HE Filament & Resin
+New on ChituNest: JAMG HE Black Friday Offers
 
 ## Preheader
 
@@ -12,7 +12,7 @@ Filament from approximately $9.90/kg with 20 kg bundles, plus our Dental license
 
 ### Welcome JAMG HE to ChituNest
 
-JAMG HE is now on ChituNest, bringing you more choices in filament and resin. This week, explore three highlights: High Speed PETG, Silk / Matte Rainbow PLA, and Eco Standard Resin.
+JAMG HE is now on ChituNest, bringing you more choices in filament and resin. This Black Friday, explore special bundle prices on three highlights: High Speed PETG, Silk / Matte Rainbow PLA, and Eco Standard Resin.
 
 ### High Speed PETG Filament
 
@@ -40,13 +40,13 @@ An economical choice for everyday resin printing, with fine detail and a smooth 
 
 **Save approximately 40% on the 6 kg bundle.** For the lowest price per kg, choose the 20 kg bundle at approximately $11.44/kg.
 
-- 6 kg: Was $130.96 | **Now $78.25**
-- 10 kg: Was $172.32 | **Now $122.10**
-- 20 kg: Was $240.12 | **Now $228.82**
+- 6 kg: Was $130.96 | **Black Friday $78.25**
+- 10 kg: Was $172.32 | **Black Friday $122.10**
+- 20 kg: Was $240.12 | **Black Friday $228.82**
 
 **[Shop Eco Standard Resin]**
 
-*Prices shown are reference prices in USD. Per-kg figures are rounded and based on the specified bundles, not single-kg purchases. Local currencies and prices vary by region; check ChituNest for current pricing in your location.*
+*Prices shown are Black Friday reference prices in USD. Per-kg figures are rounded and based on the specified bundles, not single-kg purchases. Local currencies and prices vary by region; check ChituNest for current offers in your location.*
 
 ### Your Purchase Could Win a Dental License
 
